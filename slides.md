@@ -39,6 +39,17 @@ layout: statement
 
 ---
 layout: image-right
+image: './assets/images/genres.png'
+transition: slide-up
+---
+
+# Genres
+
+Don't ask me, I don't know what loot is. Sounds fun though.
+
+
+---
+layout: image-right
 image: './assets/images/hogwarts-legacy.png'
 transition: slide-up
 ---
@@ -51,7 +62,7 @@ It's fine. But it's really not great either, and once the story was done I put t
 
 ---
 layout: image-right
-image: './assets/images/persona.webp'
+image: './assets/images/persona.jpg'
 transition: slide-up
 ---
 
@@ -60,6 +71,33 @@ transition: slide-up
 It's really good, but I didn't get to actually finish it yet because it's also really really long.
 
 # 4/5
+
+---
+layout: image-right
+image: './assets/images/elden-ring.png'
+transition: slide-up
+---
+
+# Elden Ring
+
+I will always come back to this, and it is a master piece.
+
+# 5/5
+
+This is an objective fact, not an opinion.
+
+---
+layout: image-right
+image: './assets/images/tunic.webp'
+transition: slide-up
+---
+
+# Tunic
+
+It's great. Short, concise, fun. And cute.
+
+# 5/5
+
 
 ---
 layout: image-right
