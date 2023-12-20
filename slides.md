@@ -74,6 +74,18 @@ It's really good, but I didn't get to actually finish it yet because it's also r
 
 ---
 layout: image-right
+image: './assets/images/ff-14.png'
+transition: slide-up
+---
+
+# Final Fantasy XIV
+
+It's really good, but it's also really really large. Ain't nobody got time for MMOs.
+
+# 4/5
+
+---
+layout: image-right
 image: './assets/images/god-of-war.png'
 transition: slide-up
 ---
