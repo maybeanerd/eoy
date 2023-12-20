@@ -8,12 +8,9 @@ dependencies:
   '@slidev/cli':
     specifier: 0.46.1
     version: 0.46.1(@types/markdown-it@13.0.7)(postcss@8.4.32)(typescript@5.3.3)
-  '@slidev/theme-default':
-    specifier: 0.21.2
-    version: 0.21.2
-  '@slidev/theme-seriph':
-    specifier: 0.21.3
-    version: 0.21.3
+  '@slidev/theme-apple-basic':
+    specifier: 0.20.0
+    version: 0.20.0
 
 packages:
 
@@ -1046,18 +1043,8 @@ packages:
       js-yaml: 4.1.0
     dev: false
 
-  /@slidev/theme-default@0.21.2:
-    resolution: {integrity: sha512-neUucFs2YrRZZd73QwvLTyRG/o1nerDFUR5t8YAmXVLTMzWfY71flQ6aAhjYf+WjsozYsOHcxi/pZtIzZ4VhTQ==}
-    engines: {node: '>=14.0.0', slidev: '>=0.19.2'}
-    dependencies:
-      '@slidev/types': 0.22.7
-      codemirror-theme-vars: 0.1.2
-      prism-theme-vars: 0.2.4
-      theme-vitesse: 0.1.14
-    dev: false
-
-  /@slidev/theme-seriph@0.21.3:
-    resolution: {integrity: sha512-cLya6O4hmcLHUhloCMPPoKMLX27Q+8M8pRS82BSsLXVeXTXrlpc3l3glx5VB738p+NQr7FgqFN6H2CXQRoVv9Q==}
+  /@slidev/theme-apple-basic@0.20.0:
+    resolution: {integrity: sha512-sjgxAyn63TNHsiwT/Iz2D8IjpuOg/x8l+nG2TTH3zg8XChIo7uYcNNApWH+i5zuBfaNHHUOaGLPaZw5s6fINQg==}
     engines: {node: '>=14.0.0', slidev: '>=0.19.3'}
     dependencies:
       '@slidev/types': 0.22.7
