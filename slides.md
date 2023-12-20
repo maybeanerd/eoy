@@ -202,6 +202,19 @@ I probably spend too much time on this.
 ---
 layout: image-right
 image: './assets/images/TODO.jpg'
+transition: slide-up
+---
+
+# Header
+
+Description
+
+## State:
+Stage
+
+---
+layout: image-right
+image: './assets/images/TODO.jpg'
 ---
 
 # Header
