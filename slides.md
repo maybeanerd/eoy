@@ -1,9 +1,8 @@
 ---
 theme: apple-basic
-background: https://source.unsplash.com/collection/94734566/1920x1080
-class: text-center
+layout: intro
 highlighter: shikiji
-lineNumbers: false
+lineNumbers: true
 info: |
   ## EoY 2023
   End of Year presentation of my life in 2023.
@@ -16,7 +15,13 @@ mdc: true
 
 # EoY 2023
 
-T'is my life.
+End of Year presentation of my life in 2023.
+
+<div class="absolute bottom-10">
+  <span class="font-700">
+    Sebastian Di Luzio, 2023
+  </span>
+</div>
 
 
 ---
