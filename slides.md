@@ -74,17 +74,15 @@ It's really good, but I didn't get to actually finish it yet because it's also r
 
 ---
 layout: image-right
-image: './assets/images/elden-ring.png'
+image: './assets/images/god-of-war.png'
 transition: slide-up
 ---
 
-# Elden Ring
+# God of War
 
-I will always come back to this, and it is a master piece.
+Boy.
 
-# 5/5
-
-This is an objective fact, not an opinion.
+# 4/5
 
 ---
 layout: image-right
@@ -96,19 +94,51 @@ transition: slide-up
 
 It's great. Short, concise, fun. And cute.
 
-# 5/5
-
+# 4/5
 
 ---
 layout: image-right
-image: './assets/images/'
+image: './assets/images/baldurs-gate.png'
+transition: slide-up
 ---
 
-last game
+# Baldur's Gate 3
+
+It's great. Long, sprawling, fun. And horny.
+
+# 4/5
+
+We're not even close to being done, though.
+
+---
+layout: image-right
+image: './assets/images/lies-of-p.png'
+transition: slide-up
+---
+
+# Lies of P
+
+It's a solid souls like. The theme is interesting, and gameplay is great.
+
+# 4/5
+
+---
+layout: image-right
+image: './assets/images/elden-ring.png'
+---
+
+# Elden Ring
+
+I will always come back to this, and it is a master piece.
+
+# 5/5
+
+This is an objective fact, not an opinion.
 
 ---
 transition: slide-up
 layout: statement
 ---
 
-# I tried working on sideprojects
+# Sideprojects
+## and at what stage i dropped them
