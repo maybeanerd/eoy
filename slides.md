@@ -1,16 +1,17 @@
 ---
 theme: apple-basic
-layout: intro
 highlighter: shikiji
 lineNumbers: true
+title: EoY 2023
 info: |
   ## EoY 2023
   End of Year presentation of my life in 2023.
 drawings:
   persist: false
-transition: slide-left
-title: EoY 2023
 mdc: true
+transition: slide-left
+
+layout: intro
 ---
 
 # EoY 2023
@@ -23,18 +24,22 @@ End of Year presentation of my life in 2023.
   </span>
 </div>
 
+<div class="absolute bottom-10 right-10">
+  <span class="font-700 text-3">
+    Did i mention it's about 2023?
+  </span>
+</div>
 
 ---
 transition: slide-up
+layout: statement
 ---
 
-# Games
-
-I played
+# I played games
 
 ---
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: './assets/images/'
 transition: slide-up
 ---
 
@@ -42,7 +47,7 @@ transition: slide-up
 
 ---
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: './assets/images/'
 ---
 
 # Game 2
