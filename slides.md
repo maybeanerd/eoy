@@ -179,7 +179,8 @@ transition: slide-up
 It's kubernetes running on 3, I mean 2, raspberry pi 4s.
 - The jetson nano module is not set up yet.
 - The fourth node is on it's way.
-- The old fourth node has 1 GB ram and doesn't cut it.
+- There's like 7 services running on it.
+- There's a nice uptime dashboard
 
 ## State:
 Sometimes I cry myself to sleep because I can't get it to work.
@@ -198,6 +199,40 @@ Some wasn't even exclusively for myself, wow!
 
 ## State:
 I probably spend too much time on this.
+
+---
+layout: image-right
+image: './assets/images/trader-game.png'
+transition: slide-up
+---
+
+# Self hosted trading game
+
+This is a game where you trade resources, and it's self hosted.
+
+Federation is part of the gameplay.
+
+## State:
+- basic federation works, cool!
+- I refactored the database to use mongoDB, and then refactored it to use postgresql again.
+- The core gameplay loop is missing
+- I didn't touch this for 4+ months
+
+---
+layout: image-right
+image: './assets/images/diluzio.png'
+transition: slide-up
+---
+
+# diluz.io
+
+I'ts a website, and it's mine.
+
+## State:
+- migrated to nuxt3
+- entire redesign
+- it has i18n and dark mode
+- I spent a lot of time of my vacation on this
 
 ---
 layout: image-right
