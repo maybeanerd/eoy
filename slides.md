@@ -154,3 +154,16 @@ layout: statement
 
 # Sideprojects
 ## and at what stage i dropped them
+
+---
+layout: image-right
+image: './assets/images/prusa.jpg'
+transition: slide-up
+---
+
+# Prusa MK4
+
+I bought a new 3d printer and it's cool.
+
+## Dropped at:
+Still using it ✨
