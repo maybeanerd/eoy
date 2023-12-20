@@ -39,19 +39,38 @@ layout: statement
 
 ---
 layout: image-right
-image: './assets/images/'
+image: './assets/images/hogwarts-legacy.png'
 transition: slide-up
 ---
 
-# Game 1
+# Hogwarts legacy
+
+It's fine. But it's really not great either, and once the story was done I put the game down and never looked back.
+
+# 3/5
+
+---
+layout: image-right
+image: './assets/images/persona.webp'
+transition: slide-up
+---
+
+# Persona 5 Royal
+
+It's really good, but I didn't get to actually finish it yet because it's also really really long.
+
+# 4/5
 
 ---
 layout: image-right
 image: './assets/images/'
 ---
 
-# Game 2
+last game
 
 ---
+transition: slide-up
+layout: statement
+---
 
-# Next thing
+# I tried working on sideprojects
