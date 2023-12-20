@@ -1,4 +1,7 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Welcome to my EoY 2023!
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7c9dc171-af9f-46f2-84db-1039d141dcf0/deploy-status)](https://app.netlify.com/sites/eoy-2023/deploys)
+
+## Development
 
 To start the slide show:
 
