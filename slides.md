@@ -26,7 +26,7 @@ End of Year presentation of my life in 2023.
 
 <div class="absolute bottom-10 right-10">
   <span class="font-700 text-3">
-    Did i mention it's about 2023?
+    Did I mention it's about 2023?
   </span>
 </div>
 
@@ -153,7 +153,7 @@ layout: statement
 ---
 
 # Sideprojects
-## and at what stage i dropped them
+## and at what stage I dropped them
 
 ---
 layout: image-right
@@ -165,5 +165,56 @@ transition: slide-up
 
 I bought a new 3d printer and it's cool.
 
-## Dropped at:
+## State:
 Still using it ✨
+
+---
+layout: image-right
+image: './assets/images/cluster.jpg'
+transition: slide-up
+---
+
+# The Home Cluster
+
+It's kubernetes running on 3, I mean 2, raspberry pi 4s.
+- The jetson nano module is not set up yet.
+- The fourth node is on it's way.
+- The old fourth node has 1 GB ram and doesn't cut it.
+
+## State:
+Sometimes I cry myself to sleep because I can't get it to work.
+
+Other times I am happy it works.
+
+---
+layout: image-right
+image: './assets/images/github.png'
+transition: slide-up
+---
+
+# I also did the code thingy
+
+Some wasn't even exclusively for myself, wow!
+
+## State:
+I probably spend too much time on this.
+
+---
+layout: image-right
+image: './assets/images/TODO.jpg'
+---
+
+# Header
+
+Description
+
+## State:
+Stage
+
+---
+layout: intro
+---
+
+# Follow me
+<logos-mastodon class="text-25" />
+## @maybeanerd@bumscode.com
