@@ -98,6 +98,30 @@ Boy.
 
 ---
 layout: image-right
+image: './assets/images/totk.jpg'
+transition: slide-up
+---
+
+# TotK
+
+I'ts BotW but better. Not quite done yet but already like 100 hours in.
+
+# 4/5
+
+---
+layout: image-right
+image: './assets/images/minecraft.png'
+transition: slide-up
+---
+
+# Minecraft
+
+IDK why we keep going back to this. It's fun.
+
+# 4/5
+
+---
+layout: image-right
 image: './assets/images/tunic.webp'
 transition: slide-up
 ---
