@@ -48,122 +48,29 @@ transition: slide-up
 Don't ask me, I don't know what loot is. Sounds fun though.
 
 ---
-layout:
+layout: 3-images
+imageLeft: './images/ff-14.png'
+imageTopRight: './images/hogwarts-legacy.png'
+imageBottomRight: './images/persona.jpg'
 transition: slide-up
 ---
 
-# TODO
-Just a list of games I played.
-
 ---
-layout: intro-image-right
-image: './images/hogwarts-legacy.png'
+layout: 3-images
+imageLeft: './images/totk.jpg'
+imageTopRight: './images/minecraft.png'
+imageBottomRight: './images/god-of-war.png'
 transition: slide-up
 ---
 
-# Hogwarts legacy
-
-It's fine. But it's really not great either, and once the story was done I put the game down and never looked back.
-
-# 3/5
-
 ---
-layout: intro-image-right
-image: './images/persona.jpg'
+layout: 3-images
+imageLeft: './images/baldurs-gate.png'
+imageTopRight: './images/tunic.webp'
+imageBottomRight: './images/lies-of-p.png'
 transition: slide-up
 ---
 
-# Persona 5 Royal
-
-It's really good, but I didn't get to actually finish it yet because it's also really really long.
-
-# 4/5
-
----
-layout: intro-image-right
-image: './images/ff-14.png'
-transition: slide-up
----
-
-# Final Fantasy XIV
-
-It's really good, but it's also really really large. Ain't nobody got time for MMOs.
-
-# 4/5
-
----
-layout: intro-image-right
-image: './images/god-of-war.png'
-transition: slide-up
----
-
-# God of War
-
-Boy.
-
-# 4/5
-
----
-layout: intro-image-right
-image: './images/totk.jpg'
-transition: slide-up
----
-
-# TotK
-
-I'ts BotW but better. Not quite done yet but already like 100 hours in.
-
-# 4/5
-
----
-layout: intro-image-right
-image: './images/minecraft.png'
-transition: slide-up
----
-
-# Minecraft
-
-IDK why we keep going back to this. It's fun.
-
-# 4/5
-
----
-layout: intro-image-right
-image: './images/tunic.webp'
-transition: slide-up
----
-
-# Tunic
-
-It's great. Short, concise, fun. And cute.
-
-# 4/5
-
----
-layout: intro-image-right
-image: './images/baldurs-gate.png'
-transition: slide-up
----
-
-# Baldur's Gate 3
-
-It's great. Long, sprawling, fun. And horny.
-
-# 4/5
-
-We're not even close to being done, though.
-
----
-layout: intro-image-right
-image: './images/lies-of-p.png'
-transition: slide-up
----
-
-# Lies of P
-
-It's a solid souls like. The theme is interesting, and gameplay is great.
-
-# 4/5
 
 ---
 layout: intro-image-right
