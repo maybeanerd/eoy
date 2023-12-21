@@ -226,7 +226,7 @@ transition: slide-up
 
 # diluz.io
 
-I'ts a website, and it's mine.
+It's a website, and it's mine.
 
 ## State:
 - migrated to nuxt3
@@ -236,33 +236,65 @@ I'ts a website, and it's mine.
 
 ---
 layout: image-right
-image: './assets/images/TODO.jpg'
+image: './assets/images/hbb.png'
 transition: slide-up
 ---
 
-# Header
+# Hogwarts but better bot
 
-Description
+I think you know it
 
 ## State:
-Stage
+- it creates events
+- this feature was never buggy
+- I implemented this first try easypeasy
 
 ---
 layout: image-right
-image: './assets/images/TODO.jpg'
+image: './assets/images/activitybridge.png'
+transition: slide-up
 ---
 
-# Header
+# activitybridge
 
-Description
+A bridge between activitypub and matrix.
 
 ## State:
-Stage
+- the repo exists
+- I kind of know what I want to do
+- I bought a domain
+
+---
+layout: image-right
+image: './assets/images/crab.png'
+transition: slide-up
+---
+
+# crab
+
+Elk, the mastodon client, but it's a crab.
+
+## State:
+- there's a crab
+- actually cool feature: tied to our mastodon instance
+
+
+---
+layout: image-right
+image: './assets/images/eoy.webp'
+---
+
+# an EoY presentation
+
+Wait, is this meta?
+
+## State:
+- you decide
 
 ---
 layout: intro
 ---
 
-# Follow me
+# Follow me for more
 <logos-mastodon class="text-25" />
 ## @maybeanerd@bumscode.com
