@@ -38,7 +38,7 @@ layout: statement
 # I played games
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/genres.png'
 transition: slide-up
 ---
@@ -47,9 +47,16 @@ transition: slide-up
 
 Don't ask me, I don't know what loot is. Sounds fun though.
 
+---
+layout:
+transition: slide-up
+---
+
+# TODO
+Just a list of games I played.
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/hogwarts-legacy.png'
 transition: slide-up
 ---
@@ -61,7 +68,7 @@ It's fine. But it's really not great either, and once the story was done I put t
 # 3/5
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/persona.jpg'
 transition: slide-up
 ---
@@ -73,7 +80,7 @@ It's really good, but I didn't get to actually finish it yet because it's also r
 # 4/5
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/ff-14.png'
 transition: slide-up
 ---
@@ -85,7 +92,7 @@ It's really good, but it's also really really large. Ain't nobody got time for M
 # 4/5
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/god-of-war.png'
 transition: slide-up
 ---
@@ -97,7 +104,7 @@ Boy.
 # 4/5
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/totk.jpg'
 transition: slide-up
 ---
@@ -109,7 +116,7 @@ I'ts BotW but better. Not quite done yet but already like 100 hours in.
 # 4/5
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/minecraft.png'
 transition: slide-up
 ---
@@ -121,7 +128,7 @@ IDK why we keep going back to this. It's fun.
 # 4/5
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/tunic.webp'
 transition: slide-up
 ---
@@ -133,7 +140,7 @@ It's great. Short, concise, fun. And cute.
 # 4/5
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/baldurs-gate.png'
 transition: slide-up
 ---
@@ -147,7 +154,7 @@ It's great. Long, sprawling, fun. And horny.
 We're not even close to being done, though.
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/lies-of-p.png'
 transition: slide-up
 ---
@@ -159,7 +166,7 @@ It's a solid souls like. The theme is interesting, and gameplay is great.
 # 4/5
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/elden-ring.png'
 ---
 
@@ -180,7 +187,7 @@ layout: statement
 ## and at what stage I dropped them
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/prusa.jpg'
 transition: slide-up
 ---
@@ -193,26 +200,26 @@ I bought a new 3d printer and it's cool.
 Still using it ✨
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/cluster.jpg'
 transition: slide-up
 ---
 
 # The Home Cluster
 
-It's kubernetes running on 3, I mean 2, raspberry pi 4s.
-- The jetson nano module is not set up yet.
-- The fourth node is on it's way.
-- There's like 7 services running on it.
-- There's a nice uptime dashboard
+It's kubernetes running at home.
 
-## State:
 Sometimes I cry myself to sleep because I can't get it to work.
 
-Other times I am happy it works.
+Other times I am happy it works so perfectly.
+
+## State:
+- Went from 3 to 2 nodes because one is weak AF. Soon to be 3 again. Maybe sometime 4.
+- 6 services running on it atm.
+- There's a nice uptime dashboard
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/github.png'
 transition: slide-up
 ---
@@ -225,25 +232,23 @@ Some wasn't even exclusively for myself, wow!
 I probably spend too much time on this.
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/trader-game.png'
 transition: slide-up
 ---
 
 # Self hosted trading game
 
-This is a game where you trade resources, and it's self hosted.
-
-Federation is part of the gameplay.
+This is a game where you trade resources between self hosted federated instances.
 
 ## State:
-- basic federation works, cool!
+- basic federation works!
 - I refactored the database to use mongoDB, and then refactored it to use postgresql again.
 - The core gameplay loop is missing
 - I didn't touch this for 4+ months
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/diluzio.png'
 transition: slide-up
 ---
@@ -256,25 +261,24 @@ It's a website, and it's mine.
 - migrated to nuxt3
 - entire redesign
 - it has i18n and dark mode
-- I spent a lot of time of my vacation on this
+- Did most of it on our vacation while others were reading, sleeping or swimming
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/hbb.png'
 transition: slide-up
 ---
 
 # Hogwarts but better bot
 
-I think you know it
+You might have heard of it 👀
 
 ## State:
-- it creates events
-- this feature was never buggy
-- I implemented this first try easypeasy
+- it creates events for the stammtisch on a monthly basis
+- I implemented this first try easypeasy (don't look at the attached screenshot)
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/activitybridge.png'
 transition: slide-up
 ---
@@ -285,26 +289,25 @@ A bridge between activitypub and matrix.
 
 ## State:
 - the repo exists
-- I kind of know what I want to do
 - I bought a domain
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/crab.png'
 transition: slide-up
 ---
 
 # crab
 
-Elk, the mastodon client, but it's a crab.
+Elk, the mastodon client, but it has a crab theme.
 
 ## State:
-- there's a crab
-- actually cool feature: tied to our mastodon instance
+- crab
+- actual feature: use and login is tied to our mastodon instance
 
 
 ---
-layout: image-right
+layout: intro-image-right
 image: './images/eoy.webp'
 ---
 
@@ -313,7 +316,9 @@ image: './images/eoy.webp'
 Wait, is this meta?
 
 ## State:
-- you decide
+- an amazing presentation
+- finished it super quickly (i hope when you see this it's true)
+- everyone loved it
 
 ---
 layout: intro
