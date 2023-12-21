@@ -45,7 +45,7 @@ transition: slide-up
 
 # Genres
 
-Don't ask me, I don't know what loot is. Sounds fun though.
+Looks like I like soulslikes.
 
 ---
 layout: 3-images
@@ -101,10 +101,11 @@ transition: slide-up
 
 # Prusa MK4
 
-I bought a new 3d printer and it's cool.
+I bought a new 3d printer.
 
 ## State:
-Still using it ✨
+- Printed a lof of stuff
+- It's fast and reliable
 
 ---
 layout: intro-image-right
@@ -116,14 +117,11 @@ transition: slide-up
 
 It's kubernetes running at home.
 
-Sometimes I cry myself to sleep because I can't get it to work.
-
-Other times I am happy it works so perfectly.
-
 ## State:
-- Went from 3 to 2 nodes because one is weak AF. Soon to be 3 again. Maybe sometime 4.
+- Sometimes I cry myself to sleep because I can't get it to work.
 - 6 services running on it atm.
-- There's a nice uptime dashboard
+- Working on getting more nodes into it.
+- There's a nice uptime dashboard.
 
 ---
 layout: intro-image-right
@@ -131,12 +129,13 @@ image: './images/github.png'
 transition: slide-up
 ---
 
-# I also did the code thingy
+# I also wrote code
 
-Some wasn't even exclusively for myself, wow!
+Some for myself, some for others. Everything is open source.
 
 ## State:
-I probably spend too much time on this.
+- I probably spend too much time on this.
+- Apparently I was most productive on friday nights.
 
 ---
 layout: intro-image-right
@@ -146,13 +145,13 @@ transition: slide-up
 
 # Self hosted trading game
 
-This is a game where you trade resources between self hosted federated instances.
+A game where you trade resources between self hosted federated instances.
 
 ## State:
-- basic federation works!
+- Basic federation works!
 - I refactored the database to use mongoDB, and then refactored it to use postgresql again.
-- The core gameplay loop is missing
-- I didn't touch this for 4+ months
+- The core gameplay loop is missing.
+- I didn't touch this for the past 4+ months.
 
 ---
 layout: intro-image-right
@@ -162,13 +161,13 @@ transition: slide-up
 
 # diluz.io
 
-It's a website, and it's mine.
+My personal website.
 
 ## State:
-- migrated to nuxt3
-- entire redesign
-- it has i18n and dark mode
-- Did most of it on our vacation while others were reading, sleeping or swimming
+- Migrated to nuxt v3.
+- Did a redesign.
+- It has i18n and dark mode.
+- Did most of it on our vacation while others were reading, sleeping or swimming.
 
 ---
 layout: intro-image-right
@@ -181,8 +180,8 @@ transition: slide-up
 You might have heard of it 👀
 
 ## State:
-- it creates events for the stammtisch on a monthly basis
-- I implemented this first try easypeasy (don't look at the attached screenshot)
+- It now creates events for the stammtisch on a monthly basis.
+- I implemented this first try easypeasy. (don't look at the attached screenshot)
 
 ---
 layout: intro-image-right
@@ -195,8 +194,8 @@ transition: slide-up
 A bridge between activitypub and matrix.
 
 ## State:
-- the repo exists
-- I bought a domain
+- Created a repository.
+- Bought a domain.
 
 ---
 layout: intro-image-right
@@ -206,11 +205,11 @@ transition: slide-up
 
 # crab
 
-Elk, the mastodon client, but it has a crab theme.
+A mastodon client with a crab theme, based on Elk.
 
 ## State:
-- crab
-- actual feature: use and login is tied to our mastodon instance
+- It has crab.
+- Use and login is tied to our mastodon instance.
 
 
 ---
@@ -218,14 +217,14 @@ layout: intro-image-right
 image: './images/eoy.webp'
 ---
 
-# an EoY presentation
+# An EoY presentation
 
 Wait, is this meta?
 
 ## State:
-- an amazing presentation
-- finished it super quickly (i hope when you see this it's true)
-- everyone loved it
+- An amazing presentation.
+- Finished it in time. (hopefully when you see this it's true)
+- Everyone loved it.
 
 ---
 layout: intro
