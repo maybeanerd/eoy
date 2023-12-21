@@ -39,7 +39,7 @@ layout: statement
 
 ---
 layout: image-right
-image: './assets/images/genres.png'
+image: './images/genres.png'
 transition: slide-up
 ---
 
@@ -50,7 +50,7 @@ Don't ask me, I don't know what loot is. Sounds fun though.
 
 ---
 layout: image-right
-image: './assets/images/hogwarts-legacy.png'
+image: './images/hogwarts-legacy.png'
 transition: slide-up
 ---
 
@@ -62,7 +62,7 @@ It's fine. But it's really not great either, and once the story was done I put t
 
 ---
 layout: image-right
-image: './assets/images/persona.jpg'
+image: './images/persona.jpg'
 transition: slide-up
 ---
 
@@ -74,7 +74,7 @@ It's really good, but I didn't get to actually finish it yet because it's also r
 
 ---
 layout: image-right
-image: './assets/images/ff-14.png'
+image: './images/ff-14.png'
 transition: slide-up
 ---
 
@@ -86,7 +86,7 @@ It's really good, but it's also really really large. Ain't nobody got time for M
 
 ---
 layout: image-right
-image: './assets/images/god-of-war.png'
+image: './images/god-of-war.png'
 transition: slide-up
 ---
 
@@ -98,7 +98,7 @@ Boy.
 
 ---
 layout: image-right
-image: './assets/images/totk.jpg'
+image: './images/totk.jpg'
 transition: slide-up
 ---
 
@@ -110,7 +110,7 @@ I'ts BotW but better. Not quite done yet but already like 100 hours in.
 
 ---
 layout: image-right
-image: './assets/images/minecraft.png'
+image: './images/minecraft.png'
 transition: slide-up
 ---
 
@@ -122,7 +122,7 @@ IDK why we keep going back to this. It's fun.
 
 ---
 layout: image-right
-image: './assets/images/tunic.webp'
+image: './images/tunic.webp'
 transition: slide-up
 ---
 
@@ -134,7 +134,7 @@ It's great. Short, concise, fun. And cute.
 
 ---
 layout: image-right
-image: './assets/images/baldurs-gate.png'
+image: './images/baldurs-gate.png'
 transition: slide-up
 ---
 
@@ -148,7 +148,7 @@ We're not even close to being done, though.
 
 ---
 layout: image-right
-image: './assets/images/lies-of-p.png'
+image: './images/lies-of-p.png'
 transition: slide-up
 ---
 
@@ -160,7 +160,7 @@ It's a solid souls like. The theme is interesting, and gameplay is great.
 
 ---
 layout: image-right
-image: './assets/images/elden-ring.png'
+image: './images/elden-ring.png'
 ---
 
 # Elden Ring
@@ -181,7 +181,7 @@ layout: statement
 
 ---
 layout: image-right
-image: './assets/images/prusa.jpg'
+image: './images/prusa.jpg'
 transition: slide-up
 ---
 
@@ -194,7 +194,7 @@ Still using it ✨
 
 ---
 layout: image-right
-image: './assets/images/cluster.jpg'
+image: './images/cluster.jpg'
 transition: slide-up
 ---
 
@@ -213,7 +213,7 @@ Other times I am happy it works.
 
 ---
 layout: image-right
-image: './assets/images/github.png'
+image: './images/github.png'
 transition: slide-up
 ---
 
@@ -226,7 +226,7 @@ I probably spend too much time on this.
 
 ---
 layout: image-right
-image: './assets/images/trader-game.png'
+image: './images/trader-game.png'
 transition: slide-up
 ---
 
@@ -244,7 +244,7 @@ Federation is part of the gameplay.
 
 ---
 layout: image-right
-image: './assets/images/diluzio.png'
+image: './images/diluzio.png'
 transition: slide-up
 ---
 
@@ -260,7 +260,7 @@ It's a website, and it's mine.
 
 ---
 layout: image-right
-image: './assets/images/hbb.png'
+image: './images/hbb.png'
 transition: slide-up
 ---
 
@@ -275,7 +275,7 @@ I think you know it
 
 ---
 layout: image-right
-image: './assets/images/activitybridge.png'
+image: './images/activitybridge.png'
 transition: slide-up
 ---
 
@@ -290,7 +290,7 @@ A bridge between activitypub and matrix.
 
 ---
 layout: image-right
-image: './assets/images/crab.png'
+image: './images/crab.png'
 transition: slide-up
 ---
 
@@ -305,7 +305,7 @@ Elk, the mastodon client, but it's a crab.
 
 ---
 layout: image-right
-image: './assets/images/eoy.webp'
+image: './images/eoy.webp'
 ---
 
 # an EoY presentation
