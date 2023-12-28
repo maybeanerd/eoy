@@ -168,11 +168,11 @@ transition: slide-up
 
 # met daniel roe
 
-- He's a core member of nuxt and unjs
+He's the framework lead of of nuxt.
 
 ---
 layout: intro-image-right
-image: './images/vue-i18n.png'
+image: './images/elk.png'
 transition: slide-up
 ---
 
@@ -277,7 +277,7 @@ A mastodon client with a crab theme, based on Elk.
 
 ---
 layout: intro-image-right
-image: './images/eoy.webp'
+image: './images/new-year.jpg'
 ---
 
 # An EoY presentation
