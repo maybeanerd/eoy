@@ -298,8 +298,10 @@ layout: two-cols-header
 ::left::
 
 ## <mdi-mastodon class="text-6" /> @maybeanerd@bumscode.com
+## <mdi-github class="text-6" /> maybeanerd
+## <mdi-web class="text-6" /> diluz.io/sebastian
+## <mdi-linkedin class="text-6" /> sebastian-di-luzio
 
 ::right::
 
-
-## <carbon-email class="text-6" /> eoy-2023-feedback@diluz.io
+## <carbon-email class="text-6" /> give-me-feedback-on-the-end-of-year-aka-eoy-presentation-of-the-year-2023-please@diluz.io
