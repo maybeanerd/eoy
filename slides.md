@@ -304,4 +304,4 @@ layout: two-cols-header
 
 ::right::
 
-## <carbon-email class="text-6" /> give-me-feedback-on-the-end-of-year-aka-eoy-presentation-of-the-year-2023-please@diluz.io
+## <mdi-email class="text-6" /> give-me-feedback-on-the-end-of-year-aka-eoy-presentation-of-the-year-2023-please@diluz.io
