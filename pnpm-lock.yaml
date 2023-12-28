@@ -8,6 +8,9 @@ devDependencies:
   '@iconify-json/logos':
     specifier: 1.1.42
     version: 1.1.42
+  '@iconify-json/mdi':
+    specifier: 1.1.63
+    version: 1.1.63
   '@slidev/cli':
     specifier: 0.46.1
     version: 0.46.1(@types/markdown-it@13.0.7)(playwright-chromium@1.40.1)(postcss@8.4.32)(typescript@5.3.3)
@@ -588,6 +591,12 @@ packages:
 
   /@iconify-json/logos@1.1.42:
     resolution: {integrity: sha512-/f+frtPm3m3Z30oy8Pk+QqRDkbmAiIaWGPl5CmsCXm15MVfvw9a/V/gD7WzdyuSGAZcFuQaqbHXj92y/n+2ifg==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/mdi@1.1.63:
+    resolution: {integrity: sha512-b07dRM5LYdwJqd/lm+1+JDNDNSWHvpZ7ujb73oJxx3lmK1J0giDS0BSc4yia0hixNV0Z2q/4GyxAu/A8XqDnbg==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true

@@ -290,9 +290,16 @@ Wait, is this meta?
 - Everyone loved it.
 
 ---
-layout: intro
+layout: two-cols-header
 ---
 
 # Follow me for more
-<logos-mastodon class="text-25" />
-## @maybeanerd@bumscode.com
+
+::left::
+
+## <mdi-mastodon class="text-6" /> @maybeanerd@bumscode.com
+
+::right::
+
+
+## <carbon-email class="text-6" /> eoy-2023-feedback@diluz.io
