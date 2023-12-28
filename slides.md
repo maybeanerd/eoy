@@ -130,7 +130,7 @@ It's kubernetes running at home.
 
 ---
 layout: intro-image-right
-image: './images/contributions.png'
+image: './images/github-unwrapped.png'
 transition: slide-up
 ---
 
@@ -142,7 +142,7 @@ So, here's a quick interlude with:
 
 ---
 layout: intro-image-right
-image: './images/github-unwrapped.png'
+image: './images/contributions.png'
 transition: slide-up
 ---
 
@@ -162,7 +162,7 @@ Still looking forward to surprise failures at random places because of this.
 
 ---
 layout: intro-image-right
-image: './images/github.png'
+image: './images/daniel-roe.png'
 transition: slide-up
 ---
 
