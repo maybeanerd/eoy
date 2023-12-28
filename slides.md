@@ -29,6 +29,12 @@ End of Year presentation of my life in 2023.
     Did I mention it's about 2023?
   </span>
 </div>
+---
+layout: intro-image-right
+image: './images/byebye-chrome.png'
+---
+
+# Ditched Google Chrome
 
 ---
 transition: slide-up
@@ -110,7 +116,6 @@ I bought a new 3d printer.
 ---
 layout: intro-image-right
 image: './images/cluster.jpg'
-transition: slide-up
 ---
 
 # The Home Cluster
@@ -119,9 +124,41 @@ It's kubernetes running at home.
 
 ## State:
 - Sometimes I cry myself to sleep because I can't get it to work.
-- 6 services running on it atm.
+- 7 (and more coming) services running on it atm.
 - Working on getting more nodes into it.
 - There's a nice uptime dashboard.
+
+---
+layout: intro-image-right
+image: './images/contributions.png'
+transition: slide-up
+---
+
+## I also wrote code
+
+So, here's a quick interlude with:
+
+# My open source highlights
+
+---
+layout: intro-image-right
+image: './images/github-unwrapped.png'
+transition: slide-up
+---
+
+# GitHub
+
+I probably spent too much time on here
+
+---
+layout: intro-image-right
+image: './images/github-rename.jpg'
+transition: slide-up
+---
+
+# I renamed my GitHub account
+
+Still looking forward to surprise failures at random places because of this.
 
 ---
 layout: intro-image-right
@@ -129,13 +166,31 @@ image: './images/github.png'
 transition: slide-up
 ---
 
-# I also wrote code
+# met daniel roe
 
-Some for myself, some for others. Everything is open source.
+- He's a core member of nuxt and unjs
 
-## State:
-- I probably spend too much time on this.
-- Apparently I was most productive on friday nights.
+---
+layout: intro-image-right
+image: './images/vue-i18n.png'
+transition: slide-up
+---
+
+# ranked #29 on elk contributions
+
+---
+layout: intro-image-right
+image: './images/vue-telescope.png'
+---
+
+# contribution to vue telescope
+
+---
+layout: intro
+transition: slide-up
+---
+
+# Back to my sideprojects
 
 ---
 layout: intro-image-right
@@ -182,6 +237,14 @@ You might have heard of it 👀
 ## State:
 - It now creates events for the stammtisch on a monthly basis.
 - I implemented this first try easypeasy. (don't look at the attached screenshot)
+
+---
+layout: intro-image-right
+image: './images/patreon.png'
+transition: slide-up
+---
+
+# Someone gives me money for MagiBot
 
 ---
 layout: intro-image-right
