@@ -118,7 +118,6 @@ transition: slide-up
 ---
 layout: intro-image-right
 image: './images/jellyfin.png'
-transition: slide-up
 ---
 
 # Dumped Plex
