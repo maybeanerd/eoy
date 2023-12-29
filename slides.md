@@ -29,12 +29,6 @@ End of Year presentation of my life in 2023.
     Did I mention it's about 2023?
   </span>
 </div>
----
-layout: intro-image-right
-image: './images/byebye-chrome.png'
----
-
-# Ditched Google Chrome
 
 ---
 transition: slide-up
@@ -90,6 +84,45 @@ I will always come back to this, and it is a master piece.
 # 5/5
 
 This is an objective fact, not an opinion.
+
+---
+transition: slide-up
+layout: statement
+---
+
+# The Cleansing
+## I got rid of stuff I don't want anymore
+
+---
+layout: intro-image-right
+image: './images/byebye-chrome.png'
+transition: slide-up
+---
+
+# Ditched Google Chrome
+## Firefox all the way
+
+---
+layout: intro-image-right
+image: './images/apollo.png'
+transition: slide-up
+---
+
+# Removed Social Media
+- Snapchat
+- Last remnants of Facebook (Messenger)
+- Reddit
+- Instagram
+- BeReal
+
+---
+layout: intro-image-right
+image: './images/jellyfin.png'
+transition: slide-up
+---
+
+# Dumped Plex
+## Jellyfin is my new beloved
 
 ---
 transition: slide-up
