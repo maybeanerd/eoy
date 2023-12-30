@@ -314,7 +314,7 @@ A mastodon client with a crab theme, based on Elk.
 
 ---
 layout: intro-image-right
-image: './images/new-year.jpg'
+image: './images/eoy-cat.png'
 ---
 
 # An EoY presentation
