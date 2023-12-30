@@ -202,6 +202,8 @@ transition: slide-up
 
 He's the framework lead of of nuxt.
 
+This was at the "We are Developers" conference in Berlin.
+
 ---
 layout: intro-image-right
 image: './images/elk.png'
@@ -276,7 +278,10 @@ image: './images/patreon.png'
 transition: slide-up
 ---
 
-# Someone gives me money for MagiBot
+# MagiBot
+
+## State:
+- Someone has been donating money for a few months now.
 
 ---
 layout: intro-image-right
