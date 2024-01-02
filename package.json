@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@iconify-json/logos": "1.1.42",
-    "@iconify-json/mdi": "1.1.63",
+    "@iconify-json/mdi": "1.1.64",
     "@slidev/cli": "0.46.1",
     "@slidev/theme-apple-basic": "0.20.0",
     "playwright-chromium": "1.40.1"
