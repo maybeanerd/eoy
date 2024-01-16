@@ -13,13 +13,13 @@ devDependencies:
     version: 1.1.64
   '@slidev/cli':
     specifier: 0.46.1
-    version: 0.46.1(@types/markdown-it@13.0.7)(playwright-chromium@1.40.1)(postcss@8.4.32)(typescript@5.3.3)
+    version: 0.46.1(@types/markdown-it@13.0.7)(playwright-chromium@1.41.0)(postcss@8.4.32)(typescript@5.3.3)
   '@slidev/theme-apple-basic':
     specifier: 0.20.0
     version: 0.20.0
   playwright-chromium:
-    specifier: 1.40.1
-    version: 1.40.1
+    specifier: 1.41.0
+    version: 1.41.0
 
 packages:
 
@@ -917,7 +917,7 @@ packages:
     dev: true
     optional: true
 
-  /@slidev/cli@0.46.1(@types/markdown-it@13.0.7)(playwright-chromium@1.40.1)(postcss@8.4.32)(typescript@5.3.3):
+  /@slidev/cli@0.46.1(@types/markdown-it@13.0.7)(playwright-chromium@1.41.0)(postcss@8.4.32)(typescript@5.3.3):
     resolution: {integrity: sha512-YqDn/7d+N24VqkHebpzslyXCeHHk3MJLcgHZC2074QBxH6mlLgk4Q9mSk4wXOjOZFLegEaOQj+x3NcbXHzQOnQ==}
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -968,7 +968,7 @@ packages:
       open: 9.1.0
       pdf-lib: 1.17.1
       plantuml-encoder: 1.4.0
-      playwright-chromium: 1.40.1
+      playwright-chromium: 1.41.0
       postcss-nested: 6.0.1(postcss@8.4.32)
       prismjs: 1.29.0
       prompts: 2.4.2
@@ -3915,17 +3915,17 @@ packages:
     resolution: {integrity: sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==}
     dev: true
 
-  /playwright-chromium@1.40.1:
-    resolution: {integrity: sha512-3atylP47OCTBW0siGI7LOEG/XKL/vnrFH8xdr4uaTnqMsc0Xq4gOLk2gGwniPJ76LSc++9ASc0w/nfqtLAmm3A==}
+  /playwright-chromium@1.41.0:
+    resolution: {integrity: sha512-8mg2Yqp4LUSQgAqoP0PA7rhVc8glazce4TLyyRCgydfcebO1ur9AMWUSAoalJtisciXuldsQuNfTGggC7eu7ig==}
     engines: {node: '>=16'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      playwright-core: 1.40.1
+      playwright-core: 1.41.0
     dev: true
 
-  /playwright-core@1.40.1:
-    resolution: {integrity: sha512-+hkOycxPiV534c4HhpfX6yrlawqVUzITRKwHAmYfmsVreltEl6fAZJ3DPfLMOODw0H3s1Itd6MDCWmP1fl/QvQ==}
+  /playwright-core@1.41.0:
+    resolution: {integrity: sha512-UGKASUhXmvqm2Lxa1fNr8sFwAtqjpgBRr9jQ7XBI8Rn5uFiEowGUGwrruUQsVPIom4bk7Lt+oLGpXobnXzrBIw==}
     engines: {node: '>=16'}
     hasBin: true
     dev: true
