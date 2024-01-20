@@ -13,13 +13,13 @@ devDependencies:
     version: 1.1.64
   '@slidev/cli':
     specifier: 0.46.2
-    version: 0.46.2(@types/markdown-it@13.0.7)(playwright-chromium@1.41.0)(postcss@8.4.32)(typescript@5.3.3)
+    version: 0.46.2(@types/markdown-it@13.0.7)(playwright-chromium@1.41.1)(postcss@8.4.33)(typescript@5.3.3)
   '@slidev/theme-apple-basic':
     specifier: 0.20.0
     version: 0.20.0
   playwright-chromium:
-    specifier: 1.41.0
-    version: 1.41.0
+    specifier: 1.41.1
+    version: 1.41.1
 
 packages:
 
@@ -917,7 +917,7 @@ packages:
     dev: true
     optional: true
 
-  /@slidev/cli@0.46.2(@types/markdown-it@13.0.7)(playwright-chromium@1.41.0)(postcss@8.4.32)(typescript@5.3.3):
+  /@slidev/cli@0.46.2(@types/markdown-it@13.0.7)(playwright-chromium@1.41.1)(postcss@8.4.33)(typescript@5.3.3):
     resolution: {integrity: sha512-RQUq3gY+cbvKLO04bcvAUIsDSfcXKd+ZpwJV9CFaPvqwYxrQZ0uBCiJH03z4chV5g6cDiRGlEKWyGHXNVjTqcg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -932,7 +932,7 @@ packages:
       '@iconify-json/ph': 1.1.10
       '@lillallol/outline-pdf': 4.0.0
       '@mrdrogdrog/optional': 1.2.1
-      '@slidev/client': 0.46.2(postcss@8.4.32)(typescript@5.3.3)(vite@5.0.11)
+      '@slidev/client': 0.46.2(postcss@8.4.33)(typescript@5.3.3)(vite@5.0.11)
       '@slidev/parser': 0.46.2
       '@slidev/types': 0.46.2
       '@unocss/extractor-mdc': 0.58.3
@@ -968,8 +968,8 @@ packages:
       open: 10.0.3
       pdf-lib: 1.17.1
       plantuml-encoder: 1.4.0
-      playwright-chromium: 1.41.0
-      postcss-nested: 6.0.1(postcss@8.4.32)
+      playwright-chromium: 1.41.1
+      postcss-nested: 6.0.1(postcss@8.4.33)
       prismjs: 1.29.0
       prompts: 2.4.2
       public-ip: 6.0.1
@@ -980,7 +980,7 @@ packages:
       shikiji: 0.9.19
       shikiji-twoslash: 0.9.19(typescript@5.3.3)
       sirv: 2.0.4
-      unocss: 0.58.3(postcss@8.4.32)(vite@5.0.11)
+      unocss: 0.58.3(postcss@8.4.33)(vite@5.0.11)
       unplugin-icons: 0.18.2
       unplugin-vue-components: 0.26.0(vue@3.4.14)
       unplugin-vue-markdown: 0.25.2(vite@5.0.11)
@@ -1019,7 +1019,7 @@ packages:
       - vue-template-es2015-compiler
     dev: true
 
-  /@slidev/client@0.46.2(postcss@8.4.32)(typescript@5.3.3)(vite@5.0.11):
+  /@slidev/client@0.46.2(postcss@8.4.33)(typescript@5.3.3)(vite@5.0.11):
     resolution: {integrity: sha512-eYMk6oQaV72x0/CSYEmHXbpNwABahs1F6YTcx7+uJAqZM5oQxM8jgaU2ZbP7Pzqp4+FJ4fe935fpFr2IHqXfqw==}
     engines: {node: '>=18.0.0'}
     dependencies:
@@ -1045,7 +1045,7 @@ packages:
       prettier: 3.2.4
       recordrtc: 5.6.2
       resolve: 1.22.8
-      unocss: 0.58.3(postcss@8.4.32)(vite@5.0.11)
+      unocss: 0.58.3(postcss@8.4.33)(vite@5.0.11)
       vite-plugin-windicss: 1.9.3(vite@5.0.11)
       vue: 3.4.14(typescript@5.3.3)
       vue-router: 4.2.5(vue@3.4.14)
@@ -1287,7 +1287,7 @@ packages:
       sirv: 2.0.4
     dev: true
 
-  /@unocss/postcss@0.58.3(postcss@8.4.32):
+  /@unocss/postcss@0.58.3(postcss@8.4.33):
     resolution: {integrity: sha512-y1WQNvLUidypCu/tr6oJfaV4pjd8Lsk1N27ASEVsvockOH3MekRYpHtJfTl2fMk+1Y98AHv7hPAVjM2NlvhDow==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1299,7 +1299,7 @@ packages:
       css-tree: 2.3.1
       fast-glob: 3.3.2
       magic-string: 0.30.5
-      postcss: 8.4.32
+      postcss: 8.4.33
     dev: true
 
   /@unocss/preset-attributify@0.58.3:
@@ -3959,17 +3959,17 @@ packages:
     resolution: {integrity: sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==}
     dev: true
 
-  /playwright-chromium@1.41.0:
-    resolution: {integrity: sha512-8mg2Yqp4LUSQgAqoP0PA7rhVc8glazce4TLyyRCgydfcebO1ur9AMWUSAoalJtisciXuldsQuNfTGggC7eu7ig==}
+  /playwright-chromium@1.41.1:
+    resolution: {integrity: sha512-Nr1/rnmRB4QzoAQwCors1Qsa9PLSdipsKiI4FZCQjSDzoBVBzoQqfXGtcIEnoAXEEEpzxuCPqjJNQwCVA66tCw==}
     engines: {node: '>=16'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      playwright-core: 1.41.0
+      playwright-core: 1.41.1
     dev: true
 
-  /playwright-core@1.41.0:
-    resolution: {integrity: sha512-UGKASUhXmvqm2Lxa1fNr8sFwAtqjpgBRr9jQ7XBI8Rn5uFiEowGUGwrruUQsVPIom4bk7Lt+oLGpXobnXzrBIw==}
+  /playwright-core@1.41.1:
+    resolution: {integrity: sha512-/KPO5DzXSMlxSX77wy+HihKGOunh3hqndhqeo/nMxfigiKzogn8kfL0ZBDu0L1RKgan5XHCPmn6zXd2NUJgjhg==}
     engines: {node: '>=16'}
     hasBin: true
     dev: true
@@ -3983,13 +3983,13 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /postcss-nested@6.0.1(postcss@8.4.32):
+  /postcss-nested@6.0.1(postcss@8.4.33):
     resolution: {integrity: sha512-mEp4xPMi5bSWiMbsgoPfcP74lsWLHkQbZc3sY+jWYd65CUwXrUaTp0fmNpa01ZcETKlIgUdFN/MpS2xZtqL9dQ==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
     dependencies:
-      postcss: 8.4.32
+      postcss: 8.4.33
       postcss-selector-parser: 6.0.13
     dev: true
 
@@ -4519,7 +4519,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unocss@0.58.3(postcss@8.4.32)(vite@5.0.11):
+  /unocss@0.58.3(postcss@8.4.33)(vite@5.0.11):
     resolution: {integrity: sha512-2rnvghfiIDRQ2cOrmN4P7J7xV2p3yBK+bPAt1aoUxCXcszkLczAnQzh9c7IZ+p70kSVstK45cJTYV6TMzOLF7Q==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -4535,7 +4535,7 @@ packages:
       '@unocss/cli': 0.58.3
       '@unocss/core': 0.58.3
       '@unocss/extractor-arbitrary-variants': 0.58.3
-      '@unocss/postcss': 0.58.3(postcss@8.4.32)
+      '@unocss/postcss': 0.58.3(postcss@8.4.33)
       '@unocss/preset-attributify': 0.58.3
       '@unocss/preset-icons': 0.58.3
       '@unocss/preset-mini': 0.58.3
