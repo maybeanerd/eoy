@@ -12,8 +12,8 @@ devDependencies:
     specifier: 1.1.64
     version: 1.1.64
   '@slidev/cli':
-    specifier: 0.47.3
-    version: 0.47.3(@types/markdown-it@13.0.7)(playwright-chromium@1.41.2)(postcss@8.4.33)
+    specifier: 0.47.4
+    version: 0.47.4(@types/markdown-it@13.0.7)(playwright-chromium@1.41.2)(postcss@8.4.33)
   '@slidev/theme-apple-basic':
     specifier: 0.25.0
     version: 0.25.0
@@ -979,8 +979,8 @@ packages:
     dev: true
     optional: true
 
-  /@slidev/cli@0.47.3(@types/markdown-it@13.0.7)(playwright-chromium@1.41.2)(postcss@8.4.33):
-    resolution: {integrity: sha512-n04eScRfqLPzVXOR3SDlaHL6lc8qQTjSCtAyxpuvAXnD/IqFx5HS4Xtkd8KZyeblXBErLLe7jnv+rjFQzx0EWA==}
+  /@slidev/cli@0.47.4(@types/markdown-it@13.0.7)(playwright-chromium@1.41.2)(postcss@8.4.33):
+    resolution: {integrity: sha512-e8DmN/ej9HdZHYJO23Merj3D01rk5S9x2G166VPMMVWQBsGDYptHtZTvkCzc1bR3y92wYAMmNitsLncYP/wauw==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -997,9 +997,9 @@ packages:
       '@shikijs/markdown-it': 1.0.0-beta.5
       '@shikijs/twoslash': 1.0.0-beta.5(typescript@5.3.3)
       '@shikijs/vitepress-twoslash': 1.0.0-beta.5(typescript@5.3.3)
-      '@slidev/client': 0.47.3(postcss@8.4.33)(typescript@5.3.3)(vite@5.0.12)
-      '@slidev/parser': 0.47.3
-      '@slidev/types': 0.47.3
+      '@slidev/client': 0.47.4(postcss@8.4.33)(typescript@5.3.3)(vite@5.0.12)
+      '@slidev/parser': 0.47.4
+      '@slidev/types': 0.47.4
       '@unocss/extractor-mdc': 0.58.5
       '@unocss/reset': 0.58.5
       '@vitejs/plugin-vue': 5.0.3(vite@5.0.12)(vue@3.4.15)
@@ -1078,16 +1078,16 @@ packages:
       - vue-template-es2015-compiler
     dev: true
 
-  /@slidev/client@0.47.3(postcss@8.4.33)(typescript@5.3.3)(vite@5.0.12):
-    resolution: {integrity: sha512-1RKA9H5brekbY4wwA2SVNZ5goHhMJhIEUab6ToY35VZa6epaxko0gUvrlHQs7ERS5AokVceKP/Ti94nU0Yz7gg==}
+  /@slidev/client@0.47.4(postcss@8.4.33)(typescript@5.3.3)(vite@5.0.12):
+    resolution: {integrity: sha512-4Z+cnwv+syLRbDzWRQfyQpuD/WCf4IdnfGfoa48V92xLVqyX85R0TSFaPI1OVcKFUjwwMfN5Ngl3iJk5nIyw2g==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@antfu/utils': 0.7.7
       '@iconify-json/carbon': 1.1.28
       '@iconify-json/ph': 1.1.11
       '@shikijs/vitepress-twoslash': 1.0.0-beta.5(typescript@5.3.3)
-      '@slidev/parser': 0.47.3
-      '@slidev/types': 0.47.3
+      '@slidev/parser': 0.47.4
+      '@slidev/types': 0.47.4
       '@unhead/vue': 1.8.10(vue@3.4.15)
       '@unocss/reset': 0.58.5
       '@vueuse/core': 10.7.2(vue@3.4.15)
@@ -1122,11 +1122,11 @@ packages:
       - vite
     dev: true
 
-  /@slidev/parser@0.47.3:
-    resolution: {integrity: sha512-xo2maGmaLzo/YFGl46IC3sYzK+sBMFhJ6tbsggmYgRuHqImesloCytdAFKy+nOI6DqEGjZgxmMcUassPf9ClyA==}
+  /@slidev/parser@0.47.4:
+    resolution: {integrity: sha512-hm1lhAlBMa7sqgjLtcJtcaOrlMNhqImitFSr7Z4e77eDWPYNeIQ+FSxcB4lcHoMXG+rvKgHtyrDn06EqcWvfUg==}
     engines: {node: '>=18.0.0'}
     dependencies:
-      '@slidev/types': 0.47.3
+      '@slidev/types': 0.47.4
       js-yaml: 4.1.0
     dev: true
 
@@ -1144,8 +1144,8 @@ packages:
     engines: {node: '>=18.0.0'}
     dev: true
 
-  /@slidev/types@0.47.3:
-    resolution: {integrity: sha512-T1YGKLKfhTrzeOTqJnv6TsksRFmiVsizXpua8CwBGGt6KJc17nJEZTRiKJh1hBW7gDk2I/H1d0ZEmmF7IbPGOQ==}
+  /@slidev/types@0.47.4:
+    resolution: {integrity: sha512-V+kDQ2Uv/VWaPT0a6vd/XXb+ApH66hfGR3FF84EzOf3BoyT2o21kMUjHJPUXgDMimb+vxjZVMgGItH2oIu1FWw==}
     engines: {node: '>=18.0.0'}
     dev: true
 
@@ -1583,7 +1583,7 @@ packages:
       '@vue/compiler-ssr': 3.4.15
       '@vue/shared': 3.4.15
       estree-walker: 2.0.2
-      magic-string: 0.30.5
+      magic-string: 0.30.6
       postcss: 8.4.33
       source-map-js: 1.0.2
     dev: true
@@ -3334,13 +3334,6 @@ packages:
     dev: true
     optional: true
 
-  /magic-string@0.30.5:
-    resolution: {integrity: sha512-7xlpfBaQaP/T6Vh8MO/EqXSW5En6INHEvEXQiuff7Gku0PWjU3uf6w/j9o7O+SpB5fOAkrI5HeoNgwjEO0pFsA==}
-    engines: {node: '>=12'}
-    dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.15
-    dev: true
-
   /magic-string@0.30.6:
     resolution: {integrity: sha512-n62qCLbPjNjyo+owKtveQxZFZTBm+Ms6YoGD23Wew6Vw337PElFNifQpknPruVRQV57kVShPnLGo9vWxVhpPvA==}
     engines: {node: '>=12'}
@@ -4725,7 +4718,7 @@ packages:
     dependencies:
       acorn: 8.11.3
       estree-walker: 3.0.3
-      magic-string: 0.30.5
+      magic-string: 0.30.6
       unplugin: 1.6.0
     dev: true
     optional: true
@@ -4754,7 +4747,7 @@ packages:
       escape-string-regexp: 5.0.0
       fast-glob: 3.3.2
       local-pkg: 0.5.0
-      magic-string: 0.30.5
+      magic-string: 0.30.6
       mlly: 1.5.0
       pathe: 1.1.2
       pkg-types: 1.0.3
@@ -4904,7 +4897,7 @@ packages:
       debug: 4.3.4
       fast-glob: 3.3.2
       local-pkg: 0.4.3
-      magic-string: 0.30.5
+      magic-string: 0.30.6
       minimatch: 9.0.3
       resolve: 1.22.8
       unplugin: 1.6.0
@@ -5047,7 +5040,7 @@ packages:
       blueimp-md5: 2.19.0
       debug: 4.3.4
       fs-extra: 11.2.0
-      magic-string: 0.30.5
+      magic-string: 0.30.6
       vite: 5.0.12
     transitivePeerDependencies:
       - supports-color
