@@ -12,8 +12,8 @@ devDependencies:
     specifier: 1.1.64
     version: 1.1.64
   '@slidev/cli':
-    specifier: 0.48.4
-    version: 0.48.4(@types/markdown-it@13.0.7)(playwright-chromium@1.42.1)(postcss@8.4.35)
+    specifier: 0.48.5
+    version: 0.48.5(@types/markdown-it@13.0.7)(playwright-chromium@1.42.1)(postcss@8.4.35)
   '@slidev/theme-apple-basic':
     specifier: 0.25.0
     version: 0.25.0
@@ -993,8 +993,8 @@ packages:
     dev: true
     optional: true
 
-  /@slidev/cli@0.48.4(@types/markdown-it@13.0.7)(playwright-chromium@1.42.1)(postcss@8.4.35):
-    resolution: {integrity: sha512-OK/ETnQltMTPjMAXDgRCcOH3Cdk0yopB3jmjmFUFOLBSw2MVn5DV2kIfOagLp82m4GQrCZEE5SDPAQ8DXV/1Kw==}
+  /@slidev/cli@0.48.5(@types/markdown-it@13.0.7)(playwright-chromium@1.42.1)(postcss@8.4.35):
+    resolution: {integrity: sha512-GXn+AY2V69Q1yWigDsh7FuJoQmIS7Wqzia8Ov1Yn06VoxqBeWfkFQBo6sqw+UYmMl6PAa+4qIQD5b+0Ny+3MZA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -1012,9 +1012,9 @@ packages:
       '@shikijs/markdown-it': 1.1.7
       '@shikijs/twoslash': 1.1.7(typescript@5.4.2)
       '@shikijs/vitepress-twoslash': 1.1.7(typescript@5.4.2)
-      '@slidev/client': 0.48.4(postcss@8.4.35)(vite@5.1.6)
-      '@slidev/parser': 0.48.4(postcss@8.4.35)(typescript@5.4.2)(vite@5.1.6)
-      '@slidev/types': 0.48.4(postcss@8.4.35)(typescript@5.4.2)(vite@5.1.6)
+      '@slidev/client': 0.48.5(postcss@8.4.35)(vite@5.1.6)
+      '@slidev/parser': 0.48.5(postcss@8.4.35)(typescript@5.4.2)(vite@5.1.6)
+      '@slidev/types': 0.48.5(postcss@8.4.35)(typescript@5.4.2)(vite@5.1.6)
       '@unocss/extractor-mdc': 0.58.5
       '@unocss/reset': 0.58.5
       '@vitejs/plugin-vue': 5.0.4(vite@5.1.6)(vue@3.4.21)
@@ -1095,8 +1095,8 @@ packages:
       - vue-template-es2015-compiler
     dev: true
 
-  /@slidev/client@0.48.4(postcss@8.4.35)(vite@5.1.6):
-    resolution: {integrity: sha512-cKDFqb2xV2ZhCpYds7AuxVsAwyjdg3XNdTX6hPwNdo8ej6UUlxeXvtxifOH81cb9bjAwxbQl3P4ykHpdTzkJTg==}
+  /@slidev/client@0.48.5(postcss@8.4.35)(vite@5.1.6):
+    resolution: {integrity: sha512-Wy4IiWYyiviT99KKcQYm/SEwe8SY2dVJoOBbJHFvZWYxIpAjin7Vu2g0NIWfgMMCtqWBZZ0NE03lr2zcJ2C2OQ==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@antfu/utils': 0.7.7
@@ -1105,9 +1105,9 @@ packages:
       '@iconify-json/svg-spinners': 1.1.2
       '@shikijs/monaco': 1.1.7
       '@shikijs/vitepress-twoslash': 1.1.7(typescript@5.4.2)
-      '@slidev/parser': 0.48.4(postcss@8.4.35)(typescript@5.4.2)(vite@5.1.6)
+      '@slidev/parser': 0.48.5(postcss@8.4.35)(typescript@5.4.2)(vite@5.1.6)
       '@slidev/rough-notation': 0.1.0
-      '@slidev/types': 0.48.4(postcss@8.4.35)(typescript@5.4.2)(vite@5.1.6)
+      '@slidev/types': 0.48.5(postcss@8.4.35)(typescript@5.4.2)(vite@5.1.6)
       '@typescript/ata': 0.9.4(typescript@5.4.2)
       '@unhead/vue': 1.8.18(vue@3.4.21)
       '@unocss/reset': 0.58.5
@@ -1149,11 +1149,11 @@ packages:
       - vue-template-es2015-compiler
     dev: true
 
-  /@slidev/parser@0.48.4(postcss@8.4.35)(typescript@5.4.2)(vite@5.1.6):
-    resolution: {integrity: sha512-XiXRgXXjVGIBn4sy3yOl4ZUxqti3smw3AbEgNV450s7UDXTAn2H5pUOk30u0z8YNboQWnkMqw/dad9liaF2Xvw==}
+  /@slidev/parser@0.48.5(postcss@8.4.35)(typescript@5.4.2)(vite@5.1.6):
+    resolution: {integrity: sha512-K/fnfJVtkZu140gbrRO3BXBtZNisVUdZ+DLdh6NfV914rLLbSRSGYUpk/LnM9J3NJ9CtNimyXsxaDd8TwB7fIA==}
     engines: {node: '>=18.0.0'}
     dependencies:
-      '@slidev/types': 0.48.4(postcss@8.4.35)(typescript@5.4.2)(vite@5.1.6)
+      '@slidev/types': 0.48.5(postcss@8.4.35)(typescript@5.4.2)(vite@5.1.6)
       js-yaml: 4.1.0
     transitivePeerDependencies:
       - '@svgr/core'
@@ -1189,8 +1189,8 @@ packages:
     engines: {node: '>=18.0.0'}
     dev: true
 
-  /@slidev/types@0.48.4(postcss@8.4.35)(typescript@5.4.2)(vite@5.1.6):
-    resolution: {integrity: sha512-9juP9ktTOMOd468orAxf5Dpu25Rk6+myAnPGLGzM6/V/rS7EzIAVnGLO6P4XxV0T3HMpNQpFx1wyG00a9cAP1g==}
+  /@slidev/types@0.48.5(postcss@8.4.35)(typescript@5.4.2)(vite@5.1.6):
+    resolution: {integrity: sha512-IlTZeKozBpu2Y0qGUyF1MKbLUhFyfI+6tSSs/UIzGUxhWnpfsJvXFf3/rGeIDmBtAmM/jUam9JP9ZfPRwioc8Q==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@antfu/utils': 0.7.7
