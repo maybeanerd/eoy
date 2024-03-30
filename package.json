@@ -11,7 +11,7 @@
     "@iconify-json/logos": "1.1.42",
     "@iconify-json/mdi": "1.1.64",
     "@slidev/cli": "0.48.8",
-    "@slidev/theme-apple-basic": "0.25.0",
+    "@slidev/theme-apple-basic": "0.25.1",
     "playwright-chromium": "1.42.1"
   }
 }
