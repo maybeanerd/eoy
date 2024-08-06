@@ -12,8 +12,8 @@ devDependencies:
     specifier: 1.1.68
     version: 1.1.68
   '@slidev/cli':
-    specifier: 0.49.23
-    version: 0.49.23(@types/markdown-it@14.1.1)(playwright-chromium@1.46.0)(postcss@8.4.39)
+    specifier: 0.49.24
+    version: 0.49.24(@types/markdown-it@14.1.1)(playwright-chromium@1.46.0)(postcss@8.4.39)
   '@slidev/theme-apple-basic':
     specifier: 0.25.1
     version: 0.25.1
@@ -1052,8 +1052,8 @@ packages:
     dev: true
     optional: true
 
-  /@slidev/cli@0.49.23(@types/markdown-it@14.1.1)(playwright-chromium@1.46.0)(postcss@8.4.39):
-    resolution: {integrity: sha512-hN/XmQuoMqYK48z6pfLolTSF+I/CTvWCGHf7rnAfJbr3sH9u7mwQY3VN5VagSOIoV/qIpq/2f8I4s+/0pINltw==}
+  /@slidev/cli@0.49.24(@types/markdown-it@14.1.1)(playwright-chromium@1.46.0)(postcss@8.4.39):
+    resolution: {integrity: sha512-S5GF+iyp1UGOtoUL0rIVvfNR+0YSzkMnBin+HZSVFCHnh1/ZRWZKycwPLb5dCjHc7S/OQ8UKk52maO4kKdELqw==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -1071,9 +1071,9 @@ packages:
       '@shikijs/markdown-it': 1.11.1
       '@shikijs/twoslash': 1.11.1(typescript@5.5.4)
       '@shikijs/vitepress-twoslash': 1.11.1(typescript@5.5.4)
-      '@slidev/client': 0.49.23(postcss@8.4.39)(vite@5.3.4)
-      '@slidev/parser': 0.49.23(postcss@8.4.39)(typescript@5.5.4)(vite@5.3.4)
-      '@slidev/types': 0.49.23(postcss@8.4.39)(typescript@5.5.4)(vite@5.3.4)
+      '@slidev/client': 0.49.24(postcss@8.4.39)(vite@5.3.4)
+      '@slidev/parser': 0.49.24(postcss@8.4.39)(typescript@5.5.4)(vite@5.3.4)
+      '@slidev/types': 0.49.24(postcss@8.4.39)(typescript@5.5.4)(vite@5.3.4)
       '@unocss/extractor-mdc': 0.61.5
       '@unocss/reset': 0.61.5
       '@vitejs/plugin-vue': 5.0.5(vite@5.3.4)(vue@3.4.33)
@@ -1158,8 +1158,8 @@ packages:
       - vue-template-es2015-compiler
     dev: true
 
-  /@slidev/client@0.49.23(postcss@8.4.39)(vite@5.3.4):
-    resolution: {integrity: sha512-c/Z0tcmV+/NNibqFGSzXk4vDDRKmUN7XAHOFcheHp1iO16xUA01ic/dDn+crbbBhoeokiDbGfilEWbCihQ87nA==}
+  /@slidev/client@0.49.24(postcss@8.4.39)(vite@5.3.4):
+    resolution: {integrity: sha512-0mKA4A9OPelmT3M8sj5dxeaTsQjMTx7+Zx5XllowI71RZy1BT5KCdgulM84NFkFLfVTcktRyLTgKefrMDe8XPw==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@antfu/utils': 0.7.10
@@ -1168,9 +1168,9 @@ packages:
       '@iconify-json/svg-spinners': 1.1.2
       '@shikijs/monaco': 1.11.1
       '@shikijs/vitepress-twoslash': 1.11.1(typescript@5.5.4)
-      '@slidev/parser': 0.49.23(postcss@8.4.39)(typescript@5.5.4)(vite@5.3.4)
+      '@slidev/parser': 0.49.24(postcss@8.4.39)(typescript@5.5.4)(vite@5.3.4)
       '@slidev/rough-notation': 0.1.0
-      '@slidev/types': 0.49.23(postcss@8.4.39)(typescript@5.5.4)(vite@5.3.4)
+      '@slidev/types': 0.49.24(postcss@8.4.39)(typescript@5.5.4)(vite@5.3.4)
       '@typescript/ata': 0.9.6(typescript@5.5.4)
       '@unhead/vue': 1.9.16(vue@3.4.33)
       '@unocss/reset': 0.61.5
@@ -1211,12 +1211,12 @@ packages:
       - vue-template-es2015-compiler
     dev: true
 
-  /@slidev/parser@0.49.23(postcss@8.4.39)(typescript@5.5.4)(vite@5.3.4):
-    resolution: {integrity: sha512-YMbEXWA3i2vkK2awFCx/wXmbYGLeHu7krsnGEPkURJhdRvu+LZPmWpq3/+LdlQXRide7BwRdFjHUEObEHXtqnQ==}
+  /@slidev/parser@0.49.24(postcss@8.4.39)(typescript@5.5.4)(vite@5.3.4):
+    resolution: {integrity: sha512-UpLU35GlCRzOLpFrA9Wrtb88xIlwCE4DffhJZ8hfTDhqHmbuaEK358f9cF0n4N+urG7XeLAGlPe1yxdB2rDF4A==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@antfu/utils': 0.7.10
-      '@slidev/types': 0.49.23(postcss@8.4.39)(typescript@5.5.4)(vite@5.3.4)
+      '@slidev/types': 0.49.24(postcss@8.4.39)(typescript@5.5.4)(vite@5.3.4)
       yaml: 2.4.5
     transitivePeerDependencies:
       - '@nuxt/kit'
@@ -1253,8 +1253,8 @@ packages:
     engines: {node: '>=18.0.0'}
     dev: true
 
-  /@slidev/types@0.49.23(postcss@8.4.39)(typescript@5.5.4)(vite@5.3.4):
-    resolution: {integrity: sha512-IgwGKK0nA6iX+gDOvo/n1O1cuR9EXCx4bRjnHUV/C7faeg51TuYwpitoD77if1DOXlPW0eTXeaCVJIkkJoyg5A==}
+  /@slidev/types@0.49.24(postcss@8.4.39)(typescript@5.5.4)(vite@5.3.4):
+    resolution: {integrity: sha512-ycV66qMmS/WNX/BSPk+Rh29F7XJR9CaPXCEJxU4NwxPMSe+CPRbp7VJSDF+2eWHAp3qvjSEeig2i6XSGJaBr7Q==}
     engines: {node: '>=18.0.0'}
     dependencies:
       '@antfu/utils': 0.7.10
