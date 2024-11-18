@@ -13,13 +13,13 @@ devDependencies:
     version: 1.2.1
   '@slidev/cli':
     specifier: 0.49.29
-    version: 0.49.29(@types/markdown-it@14.1.1)(playwright-chromium@1.48.2)(postcss@8.4.41)
+    version: 0.49.29(@types/markdown-it@14.1.1)(playwright-chromium@1.49.0)(postcss@8.4.41)
   '@slidev/theme-apple-basic':
     specifier: 0.25.1
     version: 0.25.1
   playwright-chromium:
-    specifier: 1.48.2
-    version: 1.48.2
+    specifier: 1.49.0
+    version: 1.49.0
 
 packages:
 
@@ -1319,7 +1319,7 @@ packages:
     dev: true
     optional: true
 
-  /@slidev/cli@0.49.29(@types/markdown-it@14.1.1)(playwright-chromium@1.48.2)(postcss@8.4.41):
+  /@slidev/cli@0.49.29(@types/markdown-it@14.1.1)(playwright-chromium@1.49.0)(postcss@8.4.41):
     resolution: {integrity: sha512-rEt6kXeAIW9JfJ5Ik09dcVNQXNhcvtNypH4wHryXgEJckYKLgkcMSsHvs5JNP3opFF5Iu4gkOyOB+chsfQ3q7Q==}
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -1372,7 +1372,7 @@ packages:
       open: 10.1.0
       pdf-lib: 1.17.1
       plantuml-encoder: 1.4.0
-      playwright-chromium: 1.48.2
+      playwright-chromium: 1.49.0
       postcss-nested: 6.2.0(postcss@8.4.41)
       pptxgenjs: 3.12.0
       prismjs: 1.29.0
@@ -4565,17 +4565,17 @@ packages:
     resolution: {integrity: sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==}
     dev: true
 
-  /playwright-chromium@1.48.2:
-    resolution: {integrity: sha512-bMBvYPlj5X6yyifahATDy5ZQySyNRDD75Q8ZCMcvn234CCA7m8vxgJIlrbJq+jcmuZVsCzNybRtEJHVGqg+v4w==}
+  /playwright-chromium@1.49.0:
+    resolution: {integrity: sha512-xU+nOHawNFKfJsHTTGyWqSJ5nRGGHQq1wTsc49H9rM+hDNnoKZi+3m12mGoLpqvJP7vRjZQ3uvU9/UJZbrJ1AA==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      playwright-core: 1.48.2
+      playwright-core: 1.49.0
     dev: true
 
-  /playwright-core@1.48.2:
-    resolution: {integrity: sha512-sjjw+qrLFlriJo64du+EK0kJgZzoQPsabGF4lBvsid+3CNIZIYLgnMj9V6JY5VhM2Peh20DJWIVpVljLLnlawA==}
+  /playwright-core@1.49.0:
+    resolution: {integrity: sha512-R+3KKTQF3npy5GTiKH/T+kdhoJfJojjHESR1YEWhYuEKRVfVaxH3+4+GvXE5xyCngCxhxnykk0Vlah9v8fs3jA==}
     engines: {node: '>=18'}
     hasBin: true
     dev: true
