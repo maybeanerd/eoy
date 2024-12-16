@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@iconify-json/logos':
-    specifier: 1.2.3
-    version: 1.2.3
+    specifier: 1.2.4
+    version: 1.2.4
   '@iconify-json/mdi':
     specifier: 1.2.1
     version: 1.2.1
@@ -880,8 +880,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/logos@1.2.3:
-    resolution: {integrity: sha512-JLHS5hgZP1b55EONAWNeqBUuriRfRNKWXK4cqYx0PpVaJfIIMiiMxFfvoQiX/bkE9XgkLhcKmDUqL3LXPdXPwQ==}
+  /@iconify-json/logos@1.2.4:
+    resolution: {integrity: sha512-XC4If5D/hbaZvUkTV8iaZuGlQCyG6CNOlaAaJaGa13V5QMYwYjgtKk3vPP8wz3wtTVNVEVk3LRx1fOJz+YnSMw==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
