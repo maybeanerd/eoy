@@ -128,20 +128,6 @@ layout: statement
 
 ---
 layout: intro-image-right
-image: '/2024/images/prusa.jpg'
-transition: slide-up
----
-
-# Prusa MK4
-
-I bought a new 3d printer.
-
-## State:
-- Printed a lof of stuff
-- It's fast and reliable
-
----
-layout: intro-image-right
 image: '/2024/images/cluster.jpg'
 ---
 
@@ -150,10 +136,10 @@ image: '/2024/images/cluster.jpg'
 It's kubernetes running at home.
 
 ## State:
-- Sometimes I cry myself to sleep because I can't get it to work.
-- 7 (and more coming) services running on it atm.
-- Working on getting more nodes into it.
-- There's a nice uptime dashboard.
+- email support! (e.g. jellyfin newsletter)
+- we have about 98% uptime :(
+- full migration to immich
+- remote backups!
 
 ---
 layout: intro-image-right
@@ -179,40 +165,13 @@ I probably spent too much time on here
 
 ---
 layout: intro-image-right
-image: '/2024/images/github-rename.jpg'
-transition: slide-up
----
-
-# I renamed my GitHub account
-
-Still looking forward to surprise failures at random places because of this.
-
----
-layout: intro-image-right
 image: '/2024/images/daniel-roe.png'
 transition: slide-up
 ---
 
-# met daniel roe
+# Held a talk about my game
 
-He's the framework lead of of nuxt.
-
-This was at the "We are Developers" conference in Berlin.
-
----
-layout: intro-image-right
-image: '/2024/images/elk.png'
-transition: slide-up
----
-
-# ranked #29 on elk contributions
-
----
-layout: intro-image-right
-image: '/2024/images/vue-telescope.png'
----
-
-# contribution to vue telescope
+At the company internal "IU Tech" conference in Berlin.
 
 ---
 layout: intro
@@ -251,21 +210,17 @@ My personal website.
 - Did a redesign, again.
 - Now also includes a CV pdf download
 
-
-
 ---
 layout: intro-image-right
-image: '/2024/images/eoy-cat.png'
+image: '/2024/images/TODO.png'
 ---
 
-# An EoY presentation
+# Basti at work
 
 Wait, is this meta?
 
-## State:
-- An amazing presentation.
-- Finished it in time. (hopefully when you see this it's true)
-- Everyone loved it.
+## text
+- 
 
 ---
 layout: two-cols-header
