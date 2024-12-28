@@ -155,9 +155,9 @@ TODO fix images
 
 ---
 layout: 3-images
-imageLeft: '/2024/images/cats chonk.heic'
+imageLeft: '/2024/images/cats gaming.jpg'
 imageTopRight: '/2024/images/cats eldenring.jpeg'
-imageBottomRight: '/2024/images/cats gaming.heic'
+imageBottomRight: '/2024/images/cats chonk.jpg'
 transition: slide-up
 ---
 
@@ -174,9 +174,9 @@ TODO images
 
 ---
 layout: 3-images
-imageLeft: '/2024/images/gamescom witcher.HEIC'
-imageTopRight: '/2024/images/gamescom zzz.HEIC'
-imageBottomRight: '/2024/images/gamescom minecraft.HEIC'
+imageLeft: '/2024/images/gamescom witcher.jpg'
+imageTopRight: '/2024/images/gamescom zzz.jpg'
+imageBottomRight: '/2024/images/gamescom minecraft.jpg'
 transition: slide-up
 ---
 
