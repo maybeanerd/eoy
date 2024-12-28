@@ -39,7 +39,7 @@ layout: statement
 
 ---
 layout: intro-image-right
-image: '/2024/images/crab.png'
+image: '/2024/images/genres.png'
 transition: slide-up
 ---
 
@@ -49,35 +49,58 @@ Looks like I like soulslikes.
 
 ---
 layout: 3-images
-imageLeft: '/2023/images/ff-14.png'
-imageTopRight: '/2023/images/hogwarts-legacy.png'
-imageBottomRight: '/2023/images/persona.jpg'
+imageLeft: '/2024/images/New World.png'
+imageTopRight: '/2024/images/throne and liberty.png'
+imageBottomRight: '/2024/images/Black Desert.png'
 transition: slide-up
 ---
 
 ---
 layout: 3-images
-imageLeft: '/2023/images/totk.jpg'
-imageTopRight: '/2023/images/minecraft.png'
-imageBottomRight: '/2023/images/god-of-war.png'
+imageLeft: '/2024/images/afk journey.jpg'
+imageTopRight: '/2024/images/Zenless Zone Zero.png'
+imageBottomRight: '/2024/images/Honkai Star Rail.png' 
 transition: slide-up
 ---
 
 ---
 layout: 3-images
-imageLeft: '/2023/images/baldurs-gate.png'
-imageTopRight: '/2023/images/tunic.webp'
-imageBottomRight: '/2023/images/lies-of-p.png'
+imageLeft: '/2024/images/Nioh - coop.png'
+imageTopRight: '/2024/images/Borderlands 2.png'
+imageBottomRight: '/2024/images/Nioh - thicc.png'
 transition: slide-up
 ---
 
+---
+layout: 3-images
+imageLeft: '/2024/images/Tiny Tinas Wonderlands - Nico.png'
+imageTopRight: '/2024/images/Tiny Tinas Wonderlands - blue.png'
+imageBottomRight: '/2024/images/Tiny Tinas Wonderlands - purple.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2024/images/Lies of P - inside.png'
+imageTopRight: '/2024/images/Lies of P - beginning.png'
+imageBottomRight: '/2024/images/Lies of P - castle.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2024/images/Elden Ring - water.png'
+imageTopRight: '/2024/images/Elden Ring - golden.png'
+imageBottomRight: '/2024/images/Elden Ring - moon.png'
+transition: slide-up
+---
 
 ---
 layout: intro-image-right
-image: '/2023/images/elden-ring.png'
+image: '/2024/images/Elden Ring - veil.png'
 ---
 
-# Elden Ring
+# Elden Ring (Shadow of the Erdtree)
 
 I will always come back to this, and it is a master piece.
 
@@ -85,43 +108,15 @@ I will always come back to this, and it is a master piece.
 
 This is an objective fact, not an opinion.
 
----
-transition: slide-up
-layout: statement
----
-
-# The Cleansing
-## I got rid of stuff I don't want anymore
+(actually didn't finish the DLC. needed to play baldurs gate)
 
 ---
-layout: intro-image-right
-image: '/2023/images/byebye-chrome.png'
+layout: 3-images
+imageLeft: '/2024/images/Baldurs Gate 3 - astarion.png'
+imageTopRight: '/2024/images/Baldurs Gate 3 - harem.png'
+imageBottomRight: '/2024/images/Baldurs Gate 3 - will and shadowheart.png'
 transition: slide-up
 ---
-
-# Ditched Google Chrome
-## Firefox all the way
-
----
-layout: intro-image-right
-image: '/2023/images/apollo.png'
-transition: slide-up
----
-
-# Removed Social Media
-- Snapchat
-- Last remnants of Facebook (Messenger)
-- Reddit
-- Instagram
-- BeReal
-
----
-layout: intro-image-right
-image: '/2023/images/jellyfin.png'
----
-
-# Dumped Plex
-## Jellyfin is my new beloved
 
 ---
 transition: slide-up
@@ -133,7 +128,7 @@ layout: statement
 
 ---
 layout: intro-image-right
-image: '/2023/images/prusa.jpg'
+image: '/2024/images/prusa.jpg'
 transition: slide-up
 ---
 
@@ -147,7 +142,7 @@ I bought a new 3d printer.
 
 ---
 layout: intro-image-right
-image: '/2023/images/cluster.jpg'
+image: '/2024/images/cluster.jpg'
 ---
 
 # The Home Cluster
@@ -162,7 +157,7 @@ It's kubernetes running at home.
 
 ---
 layout: intro-image-right
-image: '/2023/images/github-unwrapped.png'
+image: '/2024/images/github-unwrapped.png'
 transition: slide-up
 ---
 
@@ -174,7 +169,7 @@ So, here's a quick interlude with:
 
 ---
 layout: intro-image-right
-image: '/2023/images/contributions.png'
+image: '/2024/images/contributions.png'
 transition: slide-up
 ---
 
@@ -184,7 +179,7 @@ I probably spent too much time on here
 
 ---
 layout: intro-image-right
-image: '/2023/images/github-rename.jpg'
+image: '/2024/images/github-rename.jpg'
 transition: slide-up
 ---
 
@@ -194,7 +189,7 @@ Still looking forward to surprise failures at random places because of this.
 
 ---
 layout: intro-image-right
-image: '/2023/images/daniel-roe.png'
+image: '/2024/images/daniel-roe.png'
 transition: slide-up
 ---
 
@@ -206,7 +201,7 @@ This was at the "We are Developers" conference in Berlin.
 
 ---
 layout: intro-image-right
-image: '/2023/images/elk.png'
+image: '/2024/images/elk.png'
 transition: slide-up
 ---
 
@@ -214,7 +209,7 @@ transition: slide-up
 
 ---
 layout: intro-image-right
-image: '/2023/images/vue-telescope.png'
+image: '/2024/images/vue-telescope.png'
 ---
 
 # contribution to vue telescope
@@ -228,7 +223,7 @@ transition: slide-up
 
 ---
 layout: intro-image-right
-image: '/2023/images/trader-game.png'
+image: '/2024/images/trader-game.png'
 transition: slide-up
 ---
 
@@ -244,7 +239,7 @@ A game where you trade resources between self hosted federated instances.
 
 ---
 layout: intro-image-right
-image: '/2023/images/diluzio.png'
+image: '/2024/images/diluzio.png'
 transition: slide-up
 ---
 
@@ -253,68 +248,14 @@ transition: slide-up
 My personal website.
 
 ## State:
-- Migrated to nuxt v3.
-- Did a redesign.
-- It has i18n and dark mode.
-- Did most of it on our vacation while others were reading, sleeping or swimming.
+- Did a redesign, again.
+- Now also includes a CV pdf download
 
----
-layout: intro-image-right
-image: '/2023/images/hbb.png'
-transition: slide-up
----
-
-# Hogwarts but better bot
-
-You might have heard of it 👀
-
-## State:
-- It now creates events for the stammtisch on a monthly basis.
-- I implemented this first try easypeasy. (don't look at the attached screenshot)
-
----
-layout: intro-image-right
-image: '/2023/images/patreon.png'
-transition: slide-up
----
-
-# MagiBot
-
-## State:
-- Someone has been donating money for a few months now.
-
----
-layout: intro-image-right
-image: '/2023/images/activitybridge.png'
-transition: slide-up
----
-
-# activitybridge
-
-A bridge between activitypub and matrix.
-
-## State:
-- Created a repository.
-- Bought a domain.
-
----
-layout: intro-image-right
-image: '/2023/images/crab.png'
-transition: slide-up
----
-
-# crab
-
-A mastodon client with a crab theme, based on Elk.
-
-## State:
-- It has crab.
-- Use and login is tied to our mastodon instance.
 
 
 ---
 layout: intro-image-right
-image: '/2023/images/eoy-cat.png'
+image: '/2024/images/eoy-cat.png'
 ---
 
 # An EoY presentation
