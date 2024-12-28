@@ -151,8 +151,6 @@ image: '/2024/images/cats under screen.jpg'
 
 They help
 
-TODO fix images
-
 ---
 layout: 3-images
 imageLeft: '/2024/images/cats gaming.jpg'
@@ -170,13 +168,11 @@ image: '/2024/images/gamescom tencent.jpg'
 
 As rosalina
 
-TODO images
-
 ---
 layout: 3-images
-imageLeft: '/2024/images/gamescom witcher.jpg'
+imageLeft: '/2024/images/gamescom minecraft.jpg'
 imageTopRight: '/2024/images/gamescom zzz.jpg'
-imageBottomRight: '/2024/images/gamescom minecraft.jpg'
+imageBottomRight: '/2024/images/gamescom witcher.jpg'
 transition: slide-up
 ---
 
