@@ -250,22 +250,6 @@ transition: slide-up
 
 ---
 layout: intro-image-right
-image: '/2024/images/trader-game.png'
-transition: slide-up
----
-
-# Self hosted trading game
-
-A game where you trade resources between self hosted federated instances.
-
-## State:
-- Basic federation works!
-- I refactored the database to use mongoDB, and then refactored it to use postgresql again.
-- The core gameplay loop is missing.
-- I didn't touch this for the past 4+ months.
-
----
-layout: intro-image-right
 image: '/2024/images/diluzio.png'
 transition: slide-up
 ---
