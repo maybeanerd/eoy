@@ -124,7 +124,7 @@ layout: statement
 ---
 
 # Sideprojects
-## and at what stage I dropped them
+## and similar things
 
 ---
 layout: intro-image-right
@@ -141,9 +141,32 @@ It's kubernetes running at home.
 - full migration to immich
 - remote backups!
 
+
 ---
 layout: intro-image-right
-image: '/2024/images/github-unwrapped.png'
+image: '/2024/images/cluster.jpg'
+---
+
+# We got cats
+
+They help
+
+TODO cat images
+
+---
+layout: intro-image-right
+image: '/2024/images/cluster.jpg'
+---
+
+# Went to Gamescom
+
+As rosalina
+
+TODO images
+
+---
+layout: intro-image-right
+image: '/2024/images/contributions.png'
 transition: slide-up
 ---
 
@@ -155,7 +178,7 @@ So, here's a quick interlude with:
 
 ---
 layout: intro-image-right
-image: '/2024/images/contributions.png'
+image: '/2024/images/github.png'
 transition: slide-up
 ---
 
@@ -165,9 +188,42 @@ I probably spent too much time on here
 
 ---
 layout: intro-image-right
-image: '/2024/images/daniel-roe.png'
+image: '/2024/images/mage.png'
 transition: slide-up
 ---
+
+# Created container images for mage
+
+I hate java and they STILL haven't merged my PR.
+
+---
+layout: intro-image-right
+image: '/2024/images/gleam.png'
+transition: slide-up
+---
+
+# Learned a bit of gleam
+
+It's a fun, strongly typed functional language.
+
+I did a few of the advent of code 2024 challenges on it.
+
+---
+layout: intro-image-right
+image: '/2024/images/celeryband.png'
+transition: slide-up
+---
+
+# Started celery.band
+
+Will be a selfhostable salaryband platform with strong anonymization and simple configuration.
+
+---
+layout: intro-image-right
+image: '/2024/images/iutech.jpeg'
+transition: slide-up
+---
+
 
 # Held a talk about my game
 
@@ -220,7 +276,25 @@ image: '/2024/images/TODO.png'
 Wait, is this meta?
 
 ## text
-- 
+
+
+---
+layout: intro-image-right
+image: '/2024/images/.png'
+transition: slide-up
+---
+
+# Topics
+
+- actual job description
+- TLDR of what Im "supposed to do at work"
+- short overview of platform
+- mention mass layoffs?
+- all team events
+  - berlin
+  - workation
+  - iutech
+  - etc
 
 ---
 layout: two-cols-header
