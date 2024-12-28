@@ -96,6 +96,7 @@ transition: slide-up
 ---
 
 ---
+transition: slide-up
 layout: intro-image-right
 image: '/2024/images/Elden Ring - veil.png'
 ---
@@ -115,12 +116,28 @@ layout: 3-images
 imageLeft: '/2024/images/Baldurs Gate 3 - astarion.png'
 imageTopRight: '/2024/images/Baldurs Gate 3 - harem.png'
 imageBottomRight: '/2024/images/Baldurs Gate 3 - will and shadowheart.png'
-transition: slide-up
 ---
 
 ---
+layout: intro-image-right
+image: '/2024/images/gamescom tencent.jpg'
 transition: slide-up
+---
+
+# Went to Gamescom
+
+As rosalina
+
+---
+layout: 3-images
+imageLeft: '/2024/images/gamescom minecraft.jpg'
+imageTopRight: '/2024/images/gamescom zzz.jpg'
+imageBottomRight: '/2024/images/gamescom witcher.jpg'
+---
+
+---
 layout: statement
+transition: slide-up
 ---
 
 # Sideprojects
@@ -129,6 +146,7 @@ layout: statement
 ---
 layout: intro-image-right
 image: '/2024/images/cluster.jpg'
+transition: slide-up
 ---
 
 # The Home Cluster
@@ -145,6 +163,7 @@ It's kubernetes running at home.
 ---
 layout: intro-image-right
 image: '/2024/images/cats under screen.jpg'
+transition: slide-up
 ---
 
 # We got cats
@@ -156,24 +175,6 @@ layout: 3-images
 imageLeft: '/2024/images/cats gaming.jpg'
 imageTopRight: '/2024/images/cats eldenring.jpeg'
 imageBottomRight: '/2024/images/cats chonk.jpg'
-transition: slide-up
----
-
----
-layout: intro-image-right
-image: '/2024/images/gamescom tencent.jpg'
----
-
-# Went to Gamescom
-
-As rosalina
-
----
-layout: 3-images
-imageLeft: '/2024/images/gamescom minecraft.jpg'
-imageTopRight: '/2024/images/gamescom zzz.jpg'
-imageBottomRight: '/2024/images/gamescom witcher.jpg'
-transition: slide-up
 ---
 
 ---
@@ -223,7 +224,6 @@ I did a few of the advent of code 2024 challenges on it.
 ---
 layout: intro-image-right
 image: '/2024/images/celeryband.png'
-transition: slide-up
 ---
 
 # Started celery.band
@@ -252,7 +252,6 @@ At the company internal "IU Tech" conference in Berlin.
 ---
 layout: intro-image-right
 image: '/2024/images/diluzio.png'
-transition: slide-up
 ---
 
 # diluz.io
@@ -262,17 +261,16 @@ My personal website.
 ## State:
 - Did a redesign, again.
 - Now also includes a CV pdf download
+- 
 
 ---
-layout: intro-image-right
-image: '/2024/images/TODO.png'
+layout: intro
+transition: slide-up
 ---
 
 # Basti at work
 
-Wait, is this meta?
-
-## text
+What do they even do
 
 
 ---
