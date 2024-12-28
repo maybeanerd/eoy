@@ -144,18 +144,26 @@ It's kubernetes running at home.
 
 ---
 layout: intro-image-right
-image: '/2024/images/cluster.jpg'
+image: '/2024/images/cats under screen.jpg'
 ---
 
 # We got cats
 
 They help
 
-TODO cat images
+TODO fix images
+
+---
+layout: 3-images
+imageLeft: '/2024/images/cats chonk.heic'
+imageTopRight: '/2024/images/cats eldenring.jpeg'
+imageBottomRight: '/2024/images/cats gaming.heic'
+transition: slide-up
+---
 
 ---
 layout: intro-image-right
-image: '/2024/images/cluster.jpg'
+image: '/2024/images/gamescom tencent.jpg'
 ---
 
 # Went to Gamescom
@@ -163,6 +171,14 @@ image: '/2024/images/cluster.jpg'
 As rosalina
 
 TODO images
+
+---
+layout: 3-images
+imageLeft: '/2024/images/gamescom witcher.HEIC'
+imageTopRight: '/2024/images/gamescom zzz.HEIC'
+imageBottomRight: '/2024/images/gamescom minecraft.HEIC'
+transition: slide-up
+---
 
 ---
 layout: intro-image-right
