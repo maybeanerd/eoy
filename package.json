@@ -5,10 +5,10 @@
   "scripts": {
     "clear-dist":"rimraf ./dist",
     "build": "pnpm clear-dist && pnpm run \"/^build:.*/\"",
-    "build:current": "slidev build ./slides/2024.md --out ../dist",
-    "build:2024": "slidev build ./slides/2024.md --base /2024/ --out ../dist/2024",
+    "build:current": "slidev build",
+    "build:2024": "slidev build --base /2024/ --out ../dist/2024",
     "build:2023": "slidev build ./slides/2023.md --base /2023/ --out ../dist/2023",
-    "dev": "slidev --open ./slides/2024.md",
+    "dev": "slidev",
     "export": "slidev export"
   },
   "devDependencies": {
