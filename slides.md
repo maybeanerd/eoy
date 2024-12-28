@@ -120,6 +120,24 @@ imageBottomRight: '/2024/images/Baldurs Gate 3 - will and shadowheart.png'
 
 ---
 layout: intro-image-right
+image: '/2024/images/.jpg'
+transition: slide-up
+---
+
+# Went to LEC
+
+TODO
+---
+layout: intro-image-right
+image: '/2024/images/.jpg'
+transition: slide-up
+---
+
+# Went to Worlds
+
+TODO
+---
+layout: intro-image-right
 image: '/2024/images/gamescom tencent.jpg'
 transition: slide-up
 ---
