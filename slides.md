@@ -230,6 +230,14 @@ transition: slide-up
 
 Will be a selfhostable salaryband platform with strong anonymization and simple configuration.
 
+
+---
+layout: intro
+transition: slide-up
+---
+
+# Back to my sideprojects
+
 ---
 layout: intro-image-right
 image: '/2024/images/iutech.jpeg'
@@ -240,13 +248,6 @@ transition: slide-up
 # Held a talk about my game
 
 At the company internal "IU Tech" conference in Berlin.
-
----
-layout: intro
-transition: slide-up
----
-
-# Back to my sideprojects
 
 ---
 layout: intro-image-right
