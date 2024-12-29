@@ -300,6 +300,18 @@ in Team Foundation
 
 ---
 layout: intro-image-right
+image: '/2024/images/iu/iuorg.png'
+transition: slide-up
+---
+
+# What do IU do
+
+- private university
+- largest in DACH with over 150.000 students
+- both fernstudium as well as dual studies on campus
+
+---
+layout: intro-image-right
 image: '/2024/images/iu/software engineer.jpg'
 transition: slide-up
 ---
@@ -311,7 +323,28 @@ transition: slide-up
   - Designers
   - Product Managers
   - other teams & stakeholders
+- try to keep coded stuff alive
 
+
+---
+layout: intro-image-right
+image: '/2024/images/iu/team foundation.png'
+transition: slide-up
+---
+
+# What do team do
+
+- focused on providing a technical platform for other teams
+- tooling and utilities to enable others
+- developer experience
+- memes
+
+---
+layout: 3-images
+imageLeft: '/2024/images/iu/mycampus devtools.png'
+imageTopRight: '/2024/images/iu/mycampus dashboard.png'
+imageBottomRight: '/2024/images/iu/mycampus login.png'
+---
 
 ---
 layout: intro-image-right
