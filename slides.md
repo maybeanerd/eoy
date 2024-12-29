@@ -287,6 +287,31 @@ transition: slide-up
 
 What do they even do
 
+---
+layout: intro-image-right
+image: '/2024/images/iu/technical lead.png'
+transition: slide-up
+---
+
+# Senior Software Engineer and Technical Lead
+@ IU International University
+
+in Team Foundation
+
+---
+layout: intro-image-right
+image: '/2024/images/iu/software engineer.jpg'
+transition: slide-up
+---
+
+# What do software engineer do
+
+- code stuff
+- decide on the stuff to code with others
+  - Designers
+  - Product Managers
+  - other teams & stakeholders
+
 
 ---
 layout: intro-image-right
