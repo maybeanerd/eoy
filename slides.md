@@ -341,7 +341,7 @@ transition: slide-up
 ---
 layout: 3-images
 imageLeft: '/2024/images/iu/mycampus devtools.png'
-imageTopRight: '/2024/images/iu/mycampus dashboard.png'
+imageTopRight: '/2024/images/iu/pipelines.png'
 imageBottomRight: '/2024/images/iu/mycampus login.png'
 transition: slide-up
 ---
