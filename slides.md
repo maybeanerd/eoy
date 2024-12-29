@@ -325,7 +325,6 @@ transition: slide-up
   - other teams & stakeholders
 - try to keep coded stuff alive
 
-
 ---
 layout: intro-image-right
 image: '/2024/images/iu/team foundation.png'
@@ -350,18 +349,27 @@ transition: slide-up
 /** fun at work */
 ---
 layout: 3-images
-imageLeft: '/2024/images/iu/mycampus devtools.png'
-imageTopRight: '/2024/images/iu/mycampus dashboard.png'
-imageBottomRight: '/2024/images/iu/mycampus login.png'
+imageLeft: '/2024/images/iu/fun 3.jpg'
+imageTopRight: '/2024/images/iu/fun 1.jpg'
+imageBottomRight: '/2024/images/iu/fun 2.jpg'
 transition: slide-up
 ---
 
+/** conference */
+---
+layout: 3-images
+imageLeft: '/2024/images/iu/conf 1.jpg'
+imageTopRight: '/2024/images/iu/conf 2.jpg'
+imageBottomRight: '/2024/images/iu/conf 3.jpg'
+transition: slide-up
+---
+
+/** team events */
 ---
 layout: intro-image-right
 image: '/2024/images/iu/team duell.jpg'
 transition: slide-up
 ---
-
 # We also have team events
 
 - every quarter
@@ -374,18 +382,48 @@ transition: slide-up
   - etc.
 
 ---
-layout: intro-image-right
-image: '/2024/images/.png'
+layout: 3-images
+imageLeft: '/2024/images/iu/team event 2.jpg'
+imageTopRight: '/2024/images/iu/team event 3.png'
+imageBottomRight: '/2024/images/iu/team event 1.jpg'
 transition: slide-up
 ---
 
-# Topics
+/** workation */
+---
+layout: 3-images
+imageLeft: '/2024/images/iu/workation 3.jpg'
+imageTopRight: '/2024/images/iu/workation 2.jpg'
+imageBottomRight: '/2024/images/iu/workation 1.jpg'
+transition: slide-up
+---
 
-- all team events
-  - berlin
-  - workation
-  - iutech
-  - etc
+/** own events */
+---
+layout: 3-images
+imageLeft: '/2024/images/iu/event 1.jpg'
+imageTopRight: '/2024/images/iu/happy.jpg'
+imageBottomRight: '/2024/images/iu/event 3.jpg'
+transition: slide-up
+---
+
+/** feet 1 */
+---
+layout: 3-images
+imageLeft: '/2024/images/iu/feet 2.jpg'
+imageTopRight: '/2024/images/iu/feet 1.jpg'
+imageBottomRight: '/2024/images/iu/feet 3.jpeg'
+transition: slide-up
+---
+
+/** feet 2 */
+---
+layout: 3-images
+imageLeft: '/2024/images/iu/feet 4.jpg'
+imageTopRight: '/2024/images/iu/feet 5.jpg'
+imageBottomRight: '/2024/images/iu/feet 6.jpg'
+transition: slide-up
+---
 
 ---
 layout: two-cols-header
