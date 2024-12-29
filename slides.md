@@ -119,23 +119,20 @@ imageBottomRight: '/2024/images/Baldurs Gate 3 - will and shadowheart.png'
 ---
 
 ---
-layout: intro-image-right
-image: '/2024/images/.jpg'
+layout: statement
 transition: slide-up
 ---
 
-# Went to LEC
+# I went to league events
+For some reason
 
-TODO
 ---
-layout: intro-image-right
-image: '/2024/images/.jpg'
-transition: slide-up
+layout: 3-images
+imageLeft: '/2024/images/worlds.jpg'
+imageTopRight: '/2024/images/lec 2.jpg'
+imageBottomRight: '/2024/images/lec 1.jpg'
 ---
 
-# Went to Worlds
-
-TODO
 ---
 layout: intro-image-right
 image: '/2024/images/gamescom tencent.jpg'
