@@ -416,21 +416,12 @@ imageBottomRight: '/2024/images/iu/event 3.jpg'
 transition: slide-up
 ---
 
-/** feet 1 */
+/** feet */
 ---
 layout: 3-images
 imageLeft: '/2024/images/iu/feet main.jpg'
 imageTopRight: '/2024/images/iu/feet 1.jpg'
 imageBottomRight: '/2024/images/iu/feet 3.jpeg'
-transition: slide-up
----
-
-/** feet 2 */
----
-layout: 3-images
-imageLeft: '/2024/images/iu/feet 4.jpg'
-imageTopRight: '/2024/images/iu/feet 2.jpg'
-imageBottomRight: '/2024/images/iu/feet 6.jpg'
 transition: slide-up
 ---
 
