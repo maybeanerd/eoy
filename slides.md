@@ -1,11 +1,11 @@
 ---
 theme: apple-basic
-highlighter: shikiji
+highlighter: shiki
 lineNumbers: true
-title: EoY 2023
+title: EoY 2024
 info: |
-  ## EoY 2023
-  End of Year presentation of my life in 2023.
+  ## EoY 2024
+  End of Year presentation of my life in 2024.
 drawings:
   persist: false
 mdc: true
@@ -14,19 +14,19 @@ transition: slide-left
 layout: intro
 ---
 
-# EoY 2023
+# EoY 2024
 
-End of Year presentation of my life in 2023.
+End of Year presentation of my life in 2024.
 
 <div class="absolute bottom-10">
   <span class="font-700">
-    Sebastian Di Luzio, 2023
+    Sebastian Di Luzio, 2024
   </span>
 </div>
 
 <div class="absolute bottom-10 right-10">
   <span class="font-700 text-3">
-    Did I mention it's about 2023?
+    Did I mention it's about 2024?
   </span>
 </div>
 
@@ -39,7 +39,7 @@ layout: statement
 
 ---
 layout: intro-image-right
-image: './images/genres.png'
+image: '/2024/images/genres.png'
 transition: slide-up
 ---
 
@@ -49,35 +49,59 @@ Looks like I like soulslikes.
 
 ---
 layout: 3-images
-imageLeft: './images/ff-14.png'
-imageTopRight: './images/hogwarts-legacy.png'
-imageBottomRight: './images/persona.jpg'
+imageLeft: '/2024/images/New World.png'
+imageTopRight: '/2024/images/throne and liberty.png'
+imageBottomRight: '/2024/images/Black Desert.png'
 transition: slide-up
 ---
 
 ---
 layout: 3-images
-imageLeft: './images/totk.jpg'
-imageTopRight: './images/minecraft.png'
-imageBottomRight: './images/god-of-war.png'
+imageLeft: '/2024/images/afk journey.jpg'
+imageTopRight: '/2024/images/Zenless Zone Zero.png'
+imageBottomRight: '/2024/images/Honkai Star Rail.png' 
 transition: slide-up
 ---
 
 ---
 layout: 3-images
-imageLeft: './images/baldurs-gate.png'
-imageTopRight: './images/tunic.webp'
-imageBottomRight: './images/lies-of-p.png'
+imageLeft: '/2024/images/Nioh - coop.png'
+imageTopRight: '/2024/images/Borderlands 2.png'
+imageBottomRight: '/2024/images/Nioh - thicc.png'
 transition: slide-up
 ---
 
+---
+layout: 3-images
+imageLeft: '/2024/images/Tiny Tinas Wonderlands - Nico.png'
+imageTopRight: '/2024/images/Tiny Tinas Wonderlands - blue.png'
+imageBottomRight: '/2024/images/Tiny Tinas Wonderlands - purple.png'
+transition: slide-up
+---
 
 ---
+layout: 3-images
+imageLeft: '/2024/images/Lies of P - inside.png'
+imageTopRight: '/2024/images/Lies of P - beginning.png'
+imageBottomRight: '/2024/images/Lies of P - castle.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2024/images/Elden Ring - water.png'
+imageTopRight: '/2024/images/Elden Ring - golden.png'
+imageBottomRight: '/2024/images/Elden Ring - moon.png'
+transition: slide-up
+---
+
+---
+transition: slide-up
 layout: intro-image-right
-image: './images/elden-ring.png'
+image: '/2024/images/Elden Ring - veil.png'
 ---
 
-# Elden Ring
+# Elden Ring (Shadow of the Erdtree)
 
 I will always come back to this, and it is a master piece.
 
@@ -85,69 +109,59 @@ I will always come back to this, and it is a master piece.
 
 This is an objective fact, not an opinion.
 
+(actually didn't finish the DLC. needed to play baldurs gate)
+
 ---
-transition: slide-up
+layout: 3-images
+imageLeft: '/2024/images/Baldurs Gate 3 - astarion.png'
+imageTopRight: '/2024/images/Baldurs Gate 3 - harem.png'
+imageBottomRight: '/2024/images/Baldurs Gate 3 - will and shadowheart.png'
+---
+
+---
 layout: statement
----
-
-# The Cleansing
-## I got rid of stuff I don't want anymore
-
----
-layout: intro-image-right
-image: './images/byebye-chrome.png'
 transition: slide-up
 ---
 
-# Ditched Google Chrome
-## Firefox all the way
+# I went to league events
+For some reason
+
+---
+layout: 3-images
+imageLeft: '/2024/images/worlds.jpg'
+imageTopRight: '/2024/images/lec 2.jpg'
+imageBottomRight: '/2024/images/lec 1.jpg'
+---
 
 ---
 layout: intro-image-right
-image: './images/apollo.png'
+image: '/2024/images/gamescom tencent.jpg'
 transition: slide-up
 ---
 
-# Removed Social Media
-- Snapchat
-- Last remnants of Facebook (Messenger)
-- Reddit
-- Instagram
-- BeReal
+# Went to Gamescom
+
+As rosalina
 
 ---
-layout: intro-image-right
-image: './images/jellyfin.png'
+layout: 3-images
+imageLeft: '/2024/images/gamescom minecraft.jpg'
+imageTopRight: '/2024/images/gamescom zzz.jpg'
+imageBottomRight: '/2024/images/gamescom witcher.jpg'
 ---
 
-# Dumped Plex
-## Jellyfin is my new beloved
-
 ---
-transition: slide-up
 layout: statement
+transition: slide-up
 ---
 
 # Sideprojects
-## and at what stage I dropped them
+## and similar things
 
 ---
 layout: intro-image-right
-image: './images/prusa.jpg'
+image: '/2024/images/cluster.jpg'
 transition: slide-up
----
-
-# Prusa MK4
-
-I bought a new 3d printer.
-
-## State:
-- Printed a lof of stuff
-- It's fast and reliable
-
----
-layout: intro-image-right
-image: './images/cluster.jpg'
 ---
 
 # The Home Cluster
@@ -155,14 +169,32 @@ image: './images/cluster.jpg'
 It's kubernetes running at home.
 
 ## State:
-- Sometimes I cry myself to sleep because I can't get it to work.
-- 7 (and more coming) services running on it atm.
-- Working on getting more nodes into it.
-- There's a nice uptime dashboard.
+- email support! (e.g. jellyfin newsletter)
+- we have about 98% uptime :(
+- full migration to immich
+- remote backups!
+
 
 ---
 layout: intro-image-right
-image: './images/github-unwrapped.png'
+image: '/2024/images/cats under screen.jpg'
+transition: slide-up
+---
+
+# We got cats
+
+They help
+
+---
+layout: 3-images
+imageLeft: '/2024/images/cats gaming.jpg'
+imageTopRight: '/2024/images/cats eldenring.jpeg'
+imageBottomRight: '/2024/images/cats chonk.jpg'
+---
+
+---
+layout: intro-image-right
+image: '/2024/images/contributions.png'
 transition: slide-up
 ---
 
@@ -174,7 +206,7 @@ So, here's a quick interlude with:
 
 ---
 layout: intro-image-right
-image: './images/contributions.png'
+image: '/2024/images/github.png'
 transition: slide-up
 ---
 
@@ -184,40 +216,35 @@ I probably spent too much time on here
 
 ---
 layout: intro-image-right
-image: './images/github-rename.jpg'
+image: '/2024/images/mage.png'
 transition: slide-up
 ---
 
-# I renamed my GitHub account
+# Created container images for mage
 
-Still looking forward to surprise failures at random places because of this.
+I hate java and they STILL haven't merged my PR.
 
 ---
 layout: intro-image-right
-image: './images/daniel-roe.png'
+image: '/2024/images/gleam.png'
 transition: slide-up
 ---
 
-# met daniel roe
+# Learned a bit of gleam
 
-He's the framework lead of of nuxt.
+It's a fun, strongly typed functional language.
 
-This was at the "We are Developers" conference in Berlin.
-
----
-layout: intro-image-right
-image: './images/elk.png'
-transition: slide-up
----
-
-# ranked #29 on elk contributions
+I did a few of the advent of code 2024 challenges on it.
 
 ---
 layout: intro-image-right
-image: './images/vue-telescope.png'
+image: '/2024/images/celeryband.png'
 ---
 
-# contribution to vue telescope
+# Started celery.band
+
+Will be a selfhostable salaryband platform with strong anonymization and simple configuration.
+
 
 ---
 layout: intro
@@ -228,24 +255,18 @@ transition: slide-up
 
 ---
 layout: intro-image-right
-image: './images/trader-game.png'
+image: '/2024/images/iutech.jpeg'
 transition: slide-up
 ---
 
-# Self hosted trading game
 
-A game where you trade resources between self hosted federated instances.
+# Held a talk about my game
 
-## State:
-- Basic federation works!
-- I refactored the database to use mongoDB, and then refactored it to use postgresql again.
-- The core gameplay loop is missing.
-- I didn't touch this for the past 4+ months.
+At the company internal "IU Tech" conference in Berlin.
 
 ---
 layout: intro-image-right
-image: './images/diluzio.png'
-transition: slide-up
+image: '/2024/images/diluzio.png'
 ---
 
 # diluz.io
@@ -253,78 +274,156 @@ transition: slide-up
 My personal website.
 
 ## State:
-- Migrated to nuxt v3.
-- Did a redesign.
-- It has i18n and dark mode.
-- Did most of it on our vacation while others were reading, sleeping or swimming.
+- Did a redesign, again.
+- Now also includes a CV pdf download
+
 
 ---
-layout: intro-image-right
-image: './images/hbb.png'
+layout: intro
 transition: slide-up
 ---
 
-# Hogwarts but better bot
+# Basti at work
 
-You might have heard of it 👀
-
-## State:
-- It now creates events for the stammtisch on a monthly basis.
-- I implemented this first try easypeasy. (don't look at the attached screenshot)
+What do they even do
 
 ---
 layout: intro-image-right
-image: './images/patreon.png'
+image: '/2024/images/iu/technical lead.png'
 transition: slide-up
 ---
 
-# MagiBot
+# Senior Software Engineer and Technical Lead
+@ IU International University
 
-## State:
-- Someone has been donating money for a few months now.
+in Team Foundation
 
 ---
 layout: intro-image-right
-image: './images/activitybridge.png'
+image: '/2024/images/iu/iuorg.png'
 transition: slide-up
 ---
 
-# activitybridge
+# What do IU do
 
-A bridge between activitypub and matrix.
-
-## State:
-- Created a repository.
-- Bought a domain.
+- private university
+- largest in DACH with over 150.000 students
+- both fernstudium as well as dual studies on campus
 
 ---
 layout: intro-image-right
-image: './images/crab.png'
+image: '/2024/images/iu/software engineer.jpg'
 transition: slide-up
 ---
 
-# crab
+# What do software engineer do
 
-A mastodon client with a crab theme, based on Elk.
-
-## State:
-- It has crab.
-- Use and login is tied to our mastodon instance.
-
+- code stuff
+- decide on the stuff to code with others
+  - Designers
+  - Product Managers
+  - other teams & stakeholders
+- try to keep coded stuff alive
 
 ---
 layout: intro-image-right
-image: './images/eoy-cat.png'
+image: '/2024/images/iu/team foundation.png'
+transition: slide-up
 ---
 
-# An EoY presentation
+# What do team do
 
-Wait, is this meta?
+- focused on providing a technical platform for other teams
+- tooling and utilities to enable others
+- developer experience
+- memes
 
-## State:
-- An amazing presentation.
-- Finished it in time. (hopefully when you see this it's true)
-- Everyone loved it.
+---
+layout: 3-images
+imageLeft: '/2024/images/iu/mycampus devtools.png'
+imageTopRight: '/2024/images/iu/pipelines.png'
+imageBottomRight: '/2024/images/iu/mycampus login.png'
+transition: slide-up
+---
+
+/** fun at work */
+---
+layout: 3-images
+imageLeft: '/2024/images/iu/fun 3.jpg'
+imageTopRight: '/2024/images/iu/fun 1.jpg'
+imageBottomRight: '/2024/images/iu/iu gaming.jpg'
+transition: slide-up
+---
+
+/** conference */
+---
+layout: 3-images
+imageLeft: '/2024/images/iu/conf 1.jpg'
+imageTopRight: '/2024/images/iu/conf 2.jpg'
+imageBottomRight: '/2024/images/iu/conf 3.jpg'
+transition: slide-up
+---
+
+/** team events */
+---
+layout: intro-image-right
+image: '/2024/images/iu/team duell.jpg'
+transition: slide-up
+---
+# We also have team events
+
+- every quarter
+- different locations (~30 in germany)
+  - berlin
+  - munich
+  - hamburg
+  - cologne
+  - leipzig
+  - etc.
+
+---
+layout: 3-images
+imageLeft: '/2024/images/iu/team event 2.jpg'
+imageTopRight: '/2024/images/iu/team event 3.png'
+imageBottomRight: '/2024/images/iu/team event 1.jpg'
+transition: slide-up
+---
+
+/** workation 1 */
+---
+layout: 3-images
+imageLeft: '/2024/images/iu/workation 3.jpg'
+imageTopRight: '/2024/images/iu/workation 2.jpg'
+imageBottomRight: '/2024/images/iu/workation 1.jpg'
+transition: slide-up
+---
+
+/** workation 2 */
+---
+layout: 3-images
+imageLeft: '/2024/images/iu/workation meeting.jpg'
+imageTopRight: '/2024/images/iu/workation food.jpg'
+imageBottomRight: '/2024/images/iu/workation gaming.jpg'
+transition: slide-up
+---
+
+/** own events */
+---
+layout: 3-images
+imageLeft: '/2024/images/iu/event 1.jpg'
+imageTopRight: '/2024/images/iu/happy.jpg'
+imageBottomRight: '/2024/images/iu/event 3.jpg'
+transition: slide-up
+---
+
+/** feet */
+---
+layout: 3-images
+imageLeft: '/2024/images/iu/feet main.jpg'
+imageTopRight: '/2024/images/iu/feet 1.jpg'
+imageBottomRight: '/2024/images/iu/feet 3.jpeg'
+transition: slide-up
+---
 
 ---
 layout: two-cols-header
@@ -341,4 +440,4 @@ layout: two-cols-header
 
 ::right::
 
-## <mdi-email class="text-6" /> give-me-feedback-on-the-end-of-year-aka-eoy-presentation-of-the-year-2023-please@diluz.io
+## <mdi-email class="text-6" /> give-me-feedback-on-the-end-of-year-aka-eoy-presentation-of-the-year-2024-please@diluz.io

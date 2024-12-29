@@ -3,8 +3,12 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build",
-    "dev": "slidev --open",
+    "clear-dist":"rimraf ./dist",
+    "build": "pnpm clear-dist && pnpm run \"/^build:.*/\"",
+    "build:current": "slidev build",
+    "build:2024": "slidev build --base /2024/ --out ./dist/2024",
+    "build:2023": "slidev build ./slides/2023.md --base /2023/ --out ../dist/2023",
+    "dev": "slidev",
     "export": "slidev export"
   },
   "devDependencies": {
@@ -12,6 +16,8 @@
     "@iconify-json/mdi": "1.2.2",
     "@slidev/cli": "0.50.0",
     "@slidev/theme-apple-basic": "0.25.1",
-    "playwright-chromium": "1.49.1"
-  }
+    "playwright-chromium": "1.49.1",
+    "rimraf": "6.0.1"
+  },
+  "packageManager": "pnpm@9.13.2+sha512.88c9c3864450350e65a33587ab801acf946d7c814ed1134da4a924f6df5a2120fd36b46aab68f7cd1d413149112d53c7db3a4136624cfd00ff1846a0c6cef48a"
 }
