@@ -276,7 +276,7 @@ My personal website.
 ## State:
 - Did a redesign, again.
 - Now also includes a CV pdf download
-- 
+
 
 ---
 layout: intro
