@@ -351,7 +351,7 @@ transition: slide-up
 layout: 3-images
 imageLeft: '/2024/images/iu/fun 3.jpg'
 imageTopRight: '/2024/images/iu/fun 1.jpg'
-imageBottomRight: '/2024/images/iu/fun 2.jpg'
+imageBottomRight: '/2024/images/iu/iu gaming.jpg'
 transition: slide-up
 ---
 
