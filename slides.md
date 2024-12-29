@@ -344,7 +344,34 @@ layout: 3-images
 imageLeft: '/2024/images/iu/mycampus devtools.png'
 imageTopRight: '/2024/images/iu/mycampus dashboard.png'
 imageBottomRight: '/2024/images/iu/mycampus login.png'
+transition: slide-up
 ---
+
+/** fun at work */
+---
+layout: 3-images
+imageLeft: '/2024/images/iu/mycampus devtools.png'
+imageTopRight: '/2024/images/iu/mycampus dashboard.png'
+imageBottomRight: '/2024/images/iu/mycampus login.png'
+transition: slide-up
+---
+
+---
+layout: intro-image-right
+image: '/2024/images/iu/team duell.jpg'
+transition: slide-up
+---
+
+# We also have team events
+
+- every quarter
+- different locations (~30 in germany)
+  - berlin
+  - munich
+  - hamburg
+  - cologne
+  - leipzig
+  - etc.
 
 ---
 layout: intro-image-right
@@ -354,10 +381,6 @@ transition: slide-up
 
 # Topics
 
-- actual job description
-- TLDR of what Im "supposed to do at work"
-- short overview of platform
-- mention mass layoffs?
 - all team events
   - berlin
   - workation
