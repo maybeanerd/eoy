@@ -389,12 +389,21 @@ imageBottomRight: '/2024/images/iu/team event 1.jpg'
 transition: slide-up
 ---
 
-/** workation */
+/** workation 1 */
 ---
 layout: 3-images
 imageLeft: '/2024/images/iu/workation 3.jpg'
 imageTopRight: '/2024/images/iu/workation 2.jpg'
 imageBottomRight: '/2024/images/iu/workation 1.jpg'
+transition: slide-up
+---
+
+/** workation 2 */
+---
+layout: 3-images
+imageLeft: '/2024/images/iu/workation meeting.jpg'
+imageTopRight: '/2024/images/iu/workation food.jpg'
+imageBottomRight: '/2024/images/iu/workation gaming.jpg'
 transition: slide-up
 ---
 
@@ -410,7 +419,7 @@ transition: slide-up
 /** feet 1 */
 ---
 layout: 3-images
-imageLeft: '/2024/images/iu/feet 2.jpg'
+imageLeft: '/2024/images/iu/feet main.jpg'
 imageTopRight: '/2024/images/iu/feet 1.jpg'
 imageBottomRight: '/2024/images/iu/feet 3.jpeg'
 transition: slide-up
@@ -420,7 +429,7 @@ transition: slide-up
 ---
 layout: 3-images
 imageLeft: '/2024/images/iu/feet 4.jpg'
-imageTopRight: '/2024/images/iu/feet 5.jpg'
+imageTopRight: '/2024/images/iu/feet 2.jpg'
 imageBottomRight: '/2024/images/iu/feet 6.jpg'
 transition: slide-up
 ---
