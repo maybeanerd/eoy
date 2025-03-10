@@ -14,7 +14,7 @@
   "devDependencies": {
     "@iconify-json/logos": "1.2.4",
     "@iconify-json/mdi": "1.2.3",
-    "@slidev/cli": "51.3.0",
+    "@slidev/cli": "51.4.0",
     "@slidev/theme-apple-basic": "0.25.1",
     "playwright-chromium": "1.51.0",
     "rimraf": "6.0.1"
