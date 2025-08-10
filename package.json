@@ -12,7 +12,7 @@
     "export": "slidev export"
   },
   "devDependencies": {
-    "@iconify-json/logos": "1.2.5",
+    "@iconify-json/logos": "1.2.6",
     "@iconify-json/mdi": "1.2.3",
     "@slidev/cli": "51.8.2",
     "@slidev/theme-apple-basic": "0.25.1",
