@@ -279,151 +279,25 @@ My personal website.
 
 
 ---
-layout: intro
+layout: statement
 transition: slide-up
 ---
 
-# Basti at work
-
-What do they even do
+# nix
 
 ---
 layout: intro-image-right
-image: '/2025/images/iu/technical lead.png'
+image: '/2025/images/nix.png'
 transition: slide-up
 ---
 
-# Senior Software Engineer and Technical Lead
-@ IU International University
-
-in Team Foundation
+# what is nix even
 
 ---
-layout: intro-image-right
-image: '/2025/images/iu/iuorg.png'
 transition: slide-up
 ---
 
-# What do IU do
-
-- private university
-- largest in DACH with over 150.000 students
-- both fernstudium as well as dual studies on campus
-
----
-layout: intro-image-right
-image: '/2025/images/iu/software engineer.jpg'
-transition: slide-up
----
-
-# What do software engineer do
-
-- code stuff
-- decide on the stuff to code with others
-  - Designers
-  - Product Managers
-  - other teams & stakeholders
-- try to keep coded stuff alive
-
----
-layout: intro-image-right
-image: '/2025/images/iu/team foundation.png'
-transition: slide-up
----
-
-# What do team do
-
-- focused on providing a technical platform for other teams
-- tooling and utilities to enable others
-- developer experience
-- memes
-
----
-layout: 3-images
-imageLeft: '/2025/images/iu/mycampus devtools.png'
-imageTopRight: '/2025/images/iu/pipelines.png'
-imageBottomRight: '/2025/images/iu/mycampus login.png'
-transition: slide-up
----
-
-/** fun at work */
----
-layout: 3-images
-imageLeft: '/2025/images/iu/fun 3.jpg'
-imageTopRight: '/2025/images/iu/fun 1.jpg'
-imageBottomRight: '/2025/images/iu/iu gaming.jpg'
-transition: slide-up
----
-
-/** conference */
----
-layout: 3-images
-imageLeft: '/2025/images/iu/conf 1.jpg'
-imageTopRight: '/2025/images/iu/conf 2.jpg'
-imageBottomRight: '/2025/images/iu/conf 3.jpg'
-transition: slide-up
----
-
-/** team events */
----
-layout: intro-image-right
-image: '/2025/images/iu/team duell.jpg'
-transition: slide-up
----
-# We also have team events
-
-- every quarter
-- different locations (~30 in germany)
-  - berlin
-  - munich
-  - hamburg
-  - cologne
-  - leipzig
-  - etc.
-
----
-layout: 3-images
-imageLeft: '/2025/images/iu/team event 2.jpg'
-imageTopRight: '/2025/images/iu/team event 3.png'
-imageBottomRight: '/2025/images/iu/team event 1.jpg'
-transition: slide-up
----
-
-/** workation 1 */
----
-layout: 3-images
-imageLeft: '/2025/images/iu/workation 3.jpg'
-imageTopRight: '/2025/images/iu/workation 2.jpg'
-imageBottomRight: '/2025/images/iu/workation 1.jpg'
-transition: slide-up
----
-
-/** workation 2 */
----
-layout: 3-images
-imageLeft: '/2025/images/iu/workation meeting.jpg'
-imageTopRight: '/2025/images/iu/workation food.jpg'
-imageBottomRight: '/2025/images/iu/workation gaming.jpg'
-transition: slide-up
----
-
-/** own events */
----
-layout: 3-images
-imageLeft: '/2025/images/iu/event 1.jpg'
-imageTopRight: '/2025/images/iu/happy.jpg'
-imageBottomRight: '/2025/images/iu/event 3.jpg'
-transition: slide-up
----
-
-/** feet */
----
-layout: 3-images
-imageLeft: '/2025/images/iu/feet main.jpg'
-imageTopRight: '/2025/images/iu/feet 1.jpg'
-imageBottomRight: '/2025/images/iu/feet 3.jpeg'
-transition: slide-up
----
+# TODO
 
 ---
 layout: two-cols-header
