@@ -322,12 +322,52 @@ transition: slide-up
 
 
 
+
+```mermaid
+graph LR
+    Discord["Discord"]
+    Electron["Electron"]
+    Chromium["Chromium"]
+    Node["Node.js"]
+    V8["V8"]
+    libuv["libuv"]
+    SSL["OpenSSL"]
+    Skia["Skia"]
+    Freetype["Freetype"]
+    ICU["ICU"]
+    CPP["C++"]
+    LLVM["LLVM"]
+    Glibc["glibc"]
+    Linux["Linux"]
+    Discord --> Electron
+    Discord --> Node
+    Electron --> Chromium
+    Electron --> V8
+    Node --> V8
+    Node --> libuv
+    Node --> SSL
+    Chromium --> Skia
+    Chromium --> V8
+    Skia --> Freetype
+    Chromium --> ICU
+    Freetype --> CPP
+    ICU --> CPP
+    libuv --> CPP
+    SSL --> CPP
+    CPP --> LLVM
+    CPP --> Glibc
+    LLVM --> Linux
+    Glibc --> Linux
+```
+
+We need to define all of these with the build instructions, and their dependencies too!
+
 ---
 layout: center
 transition: slide-up
 ---
 
-# But building everything from source is slow
+# Building everything from source is slow
 
 What if we had a **shared cache** of pre-built packages that anyone can use to download pre-built binaries for their specific machine, and have systems to verify the integrity of the binaries?
 
@@ -336,9 +376,59 @@ layout: center
 transition: slide-up
 ---
 
-# Nix is a package manager that does both of these things
+# Nix is a Language and a Package Manager that does both of these things
 
 It originated in 2003 as a research project by Eelco Dolstra at Utrecht University, and his 2006 doctoral thesis, **The Purely Functional Software Deployment Model**, describes a declarative and functional approach to software deployment and lays out the design of the Nix package manager. ([wikipedia](https://en.wikipedia.org/wiki/NixOS))
+
+---
+layout: intro-image-right
+image: '/2025/images/map_repo_size_fresh.svg'
+transition: slide-up
+---
+
+# It's also the [largest and most up to date collection of packages in existence](https://repology.org/repositories/graphs)
+
+We now have build instructions for over 120,000 packages, and a public shared cache for most of them!
+
+---
+layout: center
+transition: slide-up
+---
+
+# What do we use it for?
+
+- on linux, mac, windows, and more ([download here](https://nixos.org/download/))
+
+TODO write about how home manager can be used to define the apps you have installed, and how conifgurations of apps can be added etc
+
+---
+layout: statement
+transition: slide-up
+---
+
+# What if we built an entire operating system around this concept?
+
+---
+layout: intro-image-right
+image: '/2025/images/NixOS_logo.svg'
+transition: slide-up
+---
+
+# NixOS
+
+A Linux distribution where the entire operating system is built and managed using the Nix package manager.
+
+---
+layout: center
+transition: slide-up
+---
+
+# What makes NixOS special?
+
+- Reproducibility: The entire system state can be applied to any machine, ensuring that the same configuration yields the same results everywhere.
+- Declarative configuration: The entire system configuration is defined using nix expressions. This includes installed packages, system services, and configuration files.
+- Atomic upgrades and rollbacks: System updates are atomic, meaning they either complete successfully or not at all. If an update causes issues, users can easily roll back to a previous system state.
+
 
 ---
 layout: two-cols-header
