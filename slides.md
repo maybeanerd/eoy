@@ -369,7 +369,7 @@ transition: slide-up
 
 # Building everything from source is slow
 
-What if we had a **shared cache** of pre-built packages that anyone can use to download pre-built binaries for their specific machine, and have systems to verify the integrity of the binaries?
+What if we had a **shared cache** of pre-built packages based on these instructions. Instead of building everything from source every time, we could just download the packages from the cache!
 
 ---
 layout: center
@@ -378,7 +378,11 @@ transition: slide-up
 
 # Nix is a Language and a Package Manager that does both of these things
 
-It originated in 2003 as a research project by Eelco Dolstra at Utrecht University, and his 2006 doctoral thesis, **The Purely Functional Software Deployment Model**, describes a declarative and functional approach to software deployment and lays out the design of the Nix package manager. ([wikipedia](https://en.wikipedia.org/wiki/NixOS))
+Also known as the Nix DSL (Domain Specific Language) and nixpkgs (The Nix package manager/registry).
+
+It originated in 2003 as a research project by Eelco Dolstra at Utrecht University.
+
+His 2006 doctoral thesis, **The Purely Functional Software Deployment Model**, describes a declarative and functional approach to software deployment and lays out the design of the Nix package manager.
 
 ---
 layout: intro-image-right
@@ -386,9 +390,9 @@ image: '/2025/images/map_repo_size_fresh.svg'
 transition: slide-up
 ---
 
-# It's also the [largest and most up to date collection of packages in existence](https://repology.org/repositories/graphs)
+# It's also the [largest and most up to date collection of packages](https://repology.org/repositories/graphs)
 
-We now have build instructions for over 120,000 packages, and a public shared cache for most of them!
+We currently have build instructions for over 120,000 packages, and a public, shared cache for all of them!
 
 ---
 layout: center
@@ -397,9 +401,81 @@ transition: slide-up
 
 # What do we use it for?
 
-- on linux, mac, windows, and more ([download here](https://nixos.org/download/))
+- you can install nix on linux, mac, windows, and more ([download](https://nixos.org/download/))
+- use nix to install and run packages in isolation from the rest of the system
+- use nix to build and manage software development environments
 
-TODO write about how home manager can be used to define the apps you have installed, and how conifgurations of apps can be added etc
+
+---
+layout: center
+transition: slide-up
+---
+
+# Or: Nix + Home Manager
+
+Use nix to configure your entire user environment declaratively, including:
+
+- installed applications
+- application settings (e.g. firefox, thunderbird, vscode, etc.), including dotfiles
+- services (e.g. ssh-agent, gpg-agent, etc)
+- share it across multiple machines, e.g. a linux PC, personal macbook, work macbook, etc.
+
+---
+layout: center
+transition: slide-up
+---
+
+# Configuring fully supported programs, e.g. firefox
+
+```nix
+ home-manager.users.${username} =
+  {
+    programs.firefox = {
+      # This is all we need to do to install firefox
+      enable = true; 
+
+      # Install extensions
+      extensions = with pkgs.nur.repos.rycee.firefox-addons; [
+        ublock-origin
+      ];
+
+      # Configure search
+      search.default = "ddg"; # DuckDuckGo
+
+      # Deep integration with full set of internal firefox settings
+      settings = { 
+        "browser.startup.homepage" = "https://diluz.io/sebastian";
+        "privacy.trackingprotection.enabled" = true;
+      };    
+    };
+  }
+```
+---
+layout: center
+transition: slide-up
+---
+
+# Installing general applications
+
+```nix
+ home-manager.users.${username} =
+  {
+    # Define general applications to be installed without further configuration
+    packages = with pkgs; [
+      thunderbird
+      vscode
+      tidal-hifi
+      discord
+    ];
+  }
+```
+
+---
+layout: statement
+transition: slide-up
+---
+
+## We can use this configuration on all our machines
 
 ---
 layout: statement
@@ -410,7 +486,7 @@ transition: slide-up
 
 ---
 layout: intro-image-right
-image: '/2025/images/NixOS_logo.svg'
+image: '/2025/images/nixos-logo.svg'
 transition: slide-up
 ---
 
@@ -425,9 +501,10 @@ transition: slide-up
 
 # What makes NixOS special?
 
-- Reproducibility: The entire system state can be applied to any machine, ensuring that the same configuration yields the same results everywhere.
-- Declarative configuration: The entire system configuration is defined using nix expressions. This includes installed packages, system services, and configuration files.
+- Reproducibility: The entire system state can be applied to any machine, yielding the same results.
+- Declarative configuration: The entire system configuration is defined using nix expressions.
 - Atomic upgrades and rollbacks: System updates are atomic, meaning they either complete successfully or not at all. If an update causes issues, users can easily roll back to a previous system state.
+
 
 
 ---
