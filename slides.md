@@ -462,10 +462,11 @@ transition: slide-up
   {
     # Define general applications to be installed without further configuration
     packages = with pkgs; [
-      thunderbird
-      vscode
-      tidal-hifi
+      bitwarden-desktop
       discord
+      signal-desktop
+      element-desktop
+      tidal-hifi
     ];
   }
 ```
