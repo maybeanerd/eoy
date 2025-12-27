@@ -27,6 +27,8 @@
           shellHook = ''
             node --version
             pnpm --version
+            pnpm i
+            pnpm dev
           '';
         };
       }
