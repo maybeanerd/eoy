@@ -292,12 +292,53 @@ transition: slide-up
 ---
 
 # what is nix even
+here's a helpful chart
 
 ---
+layout: center
 transition: slide-up
 ---
 
-# TODO
+# How is software being provided today?
+
+- binaries (.exe, .dmg, .apk, .deb, .rpm, etc.) are built and distributed to end users
+- every system needs its own build of the software (windows, mac, linux (debian, arch, ...), etc )
+- dependencies are often shared system-wide: software is often not guaranteed to run unless you install other software first
+
+---
+layout: center
+transition: slide-up
+---
+
+# What if
+Instead of distributing pre-built binaries, we distributed **build instructions** that anyone can use to build the software from source code in a reproducible way for their specific machine?
+
+---
+layout: center
+transition: slide-up
+---
+
+# Let's take discord as an example
+
+
+
+---
+layout: center
+transition: slide-up
+---
+
+# But building everything from source is slow
+
+What if we had a **shared cache** of pre-built packages that anyone can use to download pre-built binaries for their specific machine, and have systems to verify the integrity of the binaries?
+
+---
+layout: center
+transition: slide-up
+---
+
+# Nix is a package manager that does both of these things
+
+It originated in 2003 as a research project by Eelco Dolstra at Utrecht University, and his 2006 doctoral thesis, **The Purely Functional Software Deployment Model**, describes a declarative and functional approach to software deployment and lays out the design of the Nix package manager. ([wikipedia](https://en.wikipedia.org/wiki/NixOS))
 
 ---
 layout: two-cols-header
