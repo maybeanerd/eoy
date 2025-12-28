@@ -248,9 +248,14 @@ transition: slide-up
 
 # How is software being provided today?
 
+<v-clicks>
+
 - binaries (.exe, .dmg, .apk, .deb, .rpm, etc.) are built and distributed to end users
 - every system needs its own build of the software (windows, mac, linux (debian, arch, ...), etc )
 - dependencies are often shared system-wide: software is often not guaranteed to run unless you install other software first
+
+</v-clicks>
+
 
 ---
 layout: center
@@ -315,8 +320,11 @@ transition: slide-up
 ---
 
 # Building everything from source is slow
+<v-clicks>
 
 What if we had a **shared cache** of pre-built packages based on these instructions. Instead of building everything from source every time, we could just download the packages from the cache!
+
+</v-clicks>
 
 ---
 layout: center
@@ -325,11 +333,15 @@ transition: slide-up
 
 # Nix is a Language and a Package Manager that does both of these things
 
-Also known as the Nix DSL (Domain Specific Language) and nixpkgs (The Nix package manager/registry).
+Aka. Nix DSL (Domain Specific Language) and nixpkgs (The Nix package registry).
+
+<v-clicks>
 
 It originated in 2003 as a research project by Eelco Dolstra at Utrecht University.
 
 His 2006 doctoral thesis, **The Purely Functional Software Deployment Model**, describes a declarative and functional approach to software deployment and lays out the design of the Nix package manager.
+
+</v-clicks>
 
 ---
 layout: intro-image-right
@@ -365,7 +377,7 @@ nix-shell -p nodejs_22
 ```
 
 ::right::
-<img src="/2025/images/nix/nix-node.png" alt="nix nodejs" />
+<img v-click src="/2025/images/nix/nix-node.png" alt="nix nodejs" />
 
 ---
 layout: two-cols-header
@@ -396,7 +408,7 @@ transition: slide-up
 
 ::right::
 
-<img src="/2025/images/nix/nix-devshell.png" alt="nix devshell" />
+<img v-click src="/2025/images/nix/nix-devshell.png" alt="nix devshell" />
 
 ---
 layout: center
@@ -413,7 +425,22 @@ transition: slide-up
 ---
 
 # Installing general applications
+````md magic-move
+```nix
+ home-manager.users.${username} =
+  {
 
+  }
+```
+```nix
+ home-manager.users.${username} =
+  {
+    # Define general applications to be installed without further configuration
+    packages = with pkgs; [
+      bitwarden-desktop
+    ];
+  }
+```
 ```nix
  home-manager.users.${username} =
   {
@@ -427,6 +454,7 @@ transition: slide-up
     ];
   }
 ```
+````
 
 ---
 layout: center
@@ -435,6 +463,47 @@ transition: slide-up
 
 # Configuring fully supported programs, e.g. firefox
 
+````md magic-move
+```nix
+ home-manager.users.${username} =
+  {
+    programs.firefox = {
+      # This is all we need to do to install firefox
+      enable = true; 
+    };
+  }
+```
+```nix
+ home-manager.users.${username} =
+  {
+    programs.firefox = {
+      # This is all we need to do to install firefox
+      enable = true; 
+
+      # Install extensions
+      extensions = with pkgs.nur.repos.rycee.firefox-addons; [
+        ublock-origin
+      ];
+    };
+  }
+```
+```nix
+ home-manager.users.${username} =
+  {
+    programs.firefox = {
+      # This is all we need to do to install firefox
+      enable = true; 
+
+      # Install extensions
+      extensions = with pkgs.nur.repos.rycee.firefox-addons; [
+        ublock-origin
+      ];
+
+      # Configure search
+      search.default = "ddg"; # DuckDuckGo
+    };
+  }
+```
 ```nix
  home-manager.users.${username} =
   {
@@ -458,6 +527,7 @@ transition: slide-up
     };
   }
 ```
+````
 
 ---
 layout: statement
@@ -492,9 +562,13 @@ transition: slide-up
 
 # What makes NixOS special?
 
+<v-clicks>
+
 - Reproducibility: The entire system state can be applied to any machine, yielding the same results.
 - Declarative configuration: The entire system configuration is defined using nix expressions.
 - Atomic upgrades and rollbacks: System updates are atomic, meaning they either complete successfully or not at all. If an update causes issues, users can easily roll back to a previous system state.
+
+</v-clicks>
 
 ---
 layout: center
@@ -503,7 +577,16 @@ transition: slide-up
 
   # Set up foundational settings
 
+````md magic-move
+```nix
+{
+  # Time zone
+  time.timeZone = "Europe/Berlin";
 
+  # Localization
+  i18n.defaultLocale = "en_US.UTF-8";
+}
+```
 ```nix
 {
   # Time zone
@@ -520,6 +603,7 @@ transition: slide-up
   };
 }
 ```
+````
 
 ---
 layout: center
