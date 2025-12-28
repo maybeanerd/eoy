@@ -115,50 +115,23 @@ imageTopRight: '/2025/images/concerts/top.png'
 imageBottomRight: '/2025/images/concerts/ashnikko.png'
 ---
 
----
-layout: statement
-transition: slide-up
----
-
-# I went to league events
-For some reason
-
-# Sideprojects
-## and similar things
 
 ---
 layout: intro-image-right
-image: '/2025/images/cluster.jpg'
+image: '/2025/images/scotland/arcade-bar.png'
 transition: slide-up
 ---
 
-# The Home Cluster
 
-It's kubernetes running at home.
-
-## State:
-- email support! (e.g. jellyfin newsletter)
-- we have about 98% uptime :(
-- full migration to immich
-- remote backups!
-
-
----
-layout: intro-image-right
-image: '/2025/images/cats under screen.jpg'
-transition: slide-up
----
-
-# We got cats
-
-They help
+# We went to scotland
 
 ---
 layout: 3-images
-imageLeft: '/2025/images/cats gaming.jpg'
-imageTopRight: '/2025/images/cats eldenring.jpeg'
-imageBottomRight: '/2025/images/cats chonk.jpg'
+imageLeft: '/2025/images/scotland/liz.JPG'
+imageTopRight: '/2025/images/scotland/foundation_1.png'
+imageBottomRight: '/2025/images/scotland/foundation_2.png'
 ---
+
 
 ---
 layout: intro-image-right
