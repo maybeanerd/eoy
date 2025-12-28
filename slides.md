@@ -401,10 +401,55 @@ transition: slide-up
 
 # What do we use it for?
 
-- you can install nix on linux, mac, windows, and more ([download](https://nixos.org/download/))
-- use nix to install and run packages in isolation from the rest of the system
-- use nix to build and manage software development environments
+First, install nix on linux, mac, windows, and more ([download](https://nixos.org/download/))
 
+---
+layout: two-cols-header
+transition: slide-up
+---
+
+# Run packages without installing them
+
+
+::left::
+
+```sh
+nix-shell -p nodejs_22
+```
+
+::right::
+<img src="/2025/images/nix-node.png" alt="nix nodejs" />
+
+---
+layout: two-cols-header
+transition: slide-up
+---
+
+# Open development environments
+
+::left::
+
+```nix
+
+{
+  devShells.default = pkgs.mkShell {
+    buildInputs = with pkgs; [
+      nodejs_22
+      pnpm
+    ];
+    shellHook = ''
+      node --version
+      pnpm --version
+      pnpm i
+      pnpm dev
+    '';
+  };
+}
+```
+
+::right::
+
+<img src="/2025/images/nix-devshell.png" alt="nix devshell" />
 
 ---
 layout: center
@@ -413,12 +458,28 @@ transition: slide-up
 
 # Or: Nix + Home Manager
 
-Use nix to configure your entire user environment declaratively, including:
+Use nix to configure your entire user environment declaratively.
 
-- installed applications
-- application settings (e.g. firefox, thunderbird, vscode, etc.), including dotfiles
-- services (e.g. ssh-agent, gpg-agent, etc)
-- share it across multiple machines, e.g. a linux PC, personal macbook, work macbook, etc.
+---
+layout: center
+transition: slide-up
+---
+
+# Installing general applications
+
+```nix
+ home-manager.users.${username} =
+  {
+    # Define general applications to be installed without further configuration
+    packages = with pkgs; [
+      bitwarden-desktop
+      discord
+      signal-desktop
+      element-desktop
+      tidal-hifi
+    ];
+  }
+```
 
 ---
 layout: center
@@ -450,26 +511,6 @@ transition: slide-up
     };
   }
 ```
----
-layout: center
-transition: slide-up
----
-
-# Installing general applications
-
-```nix
- home-manager.users.${username} =
-  {
-    # Define general applications to be installed without further configuration
-    packages = with pkgs; [
-      bitwarden-desktop
-      discord
-      signal-desktop
-      element-desktop
-      tidal-hifi
-    ];
-  }
-```
 
 ---
 layout: statement
@@ -477,6 +518,8 @@ transition: slide-up
 ---
 
 ## We can use this configuration on all our machines
+
+PC, personal laptop, work laptop, servers, etc.
 
 ---
 layout: statement
@@ -507,6 +550,52 @@ transition: slide-up
 - Atomic upgrades and rollbacks: System updates are atomic, meaning they either complete successfully or not at all. If an update causes issues, users can easily roll back to a previous system state.
 
 
+---
+layout: center
+transition: slide-up
+---
+
+  # Set up graphics card
+
+
+```nix
+{
+  services.xserver.videoDrivers = [ "nvidia" ];
+  hardware.nvidia = {
+    modesetting.enable = true;
+    powerManagement.enable = false;
+    powerManagement.finegrained = false;
+    open = false; # Don't use the open source driver
+    nvidiaSettings = true;
+    package = config.boot.kernelPackages.nvidiaPackages.stable;
+  };
+}
+```
+
+---
+layout: center
+transition: slide-up
+---
+
+# Configure Yubikey for login and sudo
+
+```nix
+{
+  services.udev.packages = [ pkgs.yubikey-personalization ];
+  services.pcscd.enable = true;
+  security.pam = {
+    services = {
+      login.u2fAuth = true;
+      sudo.u2fAuth = true;
+      # for login after lockout on KDE
+      kde.u2fAuth = true;
+    };
+    u2f.settings = {
+      cue = true; # Tell users to touch the yubikey
+    };
+  };
+}
+```
 
 ---
 layout: two-cols-header
