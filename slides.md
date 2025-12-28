@@ -345,7 +345,7 @@ layout: two-cols-header
 transition: slide-up
 ---
 
-# Run packages without installing them
+# Run packages in ephemeral environments
 
 
 ::left::
