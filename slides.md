@@ -2,10 +2,10 @@
 theme: apple-basic
 highlighter: shiki
 lineNumbers: true
-title: EoY 2024
+title: EoY 2025
 info: |
-  ## EoY 2024
-  End of Year presentation of my life in 2024.
+  ## EoY 2025
+  End of Year presentation of my life in 2025.
 drawings:
   persist: false
 mdc: true
@@ -14,21 +14,30 @@ transition: slide-left
 layout: intro
 ---
 
-# EoY 2024
+# EoY 2025
 
-End of Year presentation of my life in 2024.
+End of Year presentation of my life in 2025.
 
 <div class="absolute bottom-10">
   <span class="font-700">
-    Sebastian Di Luzio, 2024
+    Sebastian Di Luzio, 2025
   </span>
 </div>
 
 <div class="absolute bottom-10 right-10">
   <span class="font-700 text-3">
-    Did I mention it's about 2024?
+    Did I mention it's about 2025?
   </span>
 </div>
+
+<div v-click.hide="'0'" class="absolute bottom-2 right-2">
+  <span class="font-700 text-3">
+    .
+  </span>
+</div>
+<div v-click="'1'">
+</div>
+
 
 ---
 transition: slide-up
@@ -38,84 +47,98 @@ layout: statement
 # I played games
 
 ---
+layout: 3-images
+imageLeft: '/2025/images/games/animal_well.png'
+imageTopRight: '/2025/images/games/baldurs_gate.png'
+imageBottomRight: '/2025/images/games/ffxiv.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/games/borderlands_2.png'
+imageTopRight: '/2025/images/games/ghost.png'
+imageBottomRight: '/2025/images/games/borderlands_1.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/games/cyberpunk_2.png'
+imageTopRight: '/2025/images/games/cyberpunk_1.png'
+imageBottomRight: '/2025/images/games/letthemtrade.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/games/unbeatable.png'
+imageTopRight: '/2025/images/games/poe.png'
+imageBottomRight: '/2025/images/games/diablo.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/games/mariokart_1.jpg'
+imageTopRight: '/2025/images/games/mh_1.png'
+imageBottomRight: '/2025/images/games/mh_2.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/games/split-fiction.png'
+imageTopRight: '/2025/images/games/zzz_2.png'
+imageBottomRight: '/2025/images/games/zzz_1.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/games/satisfactory_1.png'
+imageTopRight: '/2025/images/games/satisfactory_2.png'
+imageBottomRight: '/2025/images/games/satisfactory_3.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/games/mtg_5.png'
+imageTopRight: '/2025/images/games/mtg_2.png'
+imageBottomRight: '/2025/images/games/mtg_4.png'
+---
+
+---
 layout: intro-image-right
-image: '/2024/images/genres.png'
+image: '/2025/images/concerts/fox-stevenson.png'
 transition: slide-up
 ---
 
-# Genres
-
-Looks like I like soulslikes.
+# I also went to concerts
 
 ---
 layout: 3-images
-imageLeft: '/2024/images/New World.png'
-imageTopRight: '/2024/images/throne and liberty.png'
-imageBottomRight: '/2024/images/Black Desert.png'
-transition: slide-up
+imageLeft: '/2025/images/concerts/witcher.png'
+imageTopRight: '/2025/images/concerts/top.png'
+imageBottomRight: '/2025/images/concerts/ashnikko.png'
 ---
 
----
-layout: 3-images
-imageLeft: '/2024/images/afk journey.jpg'
-imageTopRight: '/2024/images/Zenless Zone Zero.png'
-imageBottomRight: '/2024/images/Honkai Star Rail.png' 
-transition: slide-up
----
 
 ---
-layout: 3-images
-imageLeft: '/2024/images/Nioh - coop.png'
-imageTopRight: '/2024/images/Borderlands 2.png'
-imageBottomRight: '/2024/images/Nioh - thicc.png'
-transition: slide-up
----
-
----
-layout: 3-images
-imageLeft: '/2024/images/Tiny Tinas Wonderlands - Nico.png'
-imageTopRight: '/2024/images/Tiny Tinas Wonderlands - blue.png'
-imageBottomRight: '/2024/images/Tiny Tinas Wonderlands - purple.png'
-transition: slide-up
----
-
----
-layout: 3-images
-imageLeft: '/2024/images/Lies of P - inside.png'
-imageTopRight: '/2024/images/Lies of P - beginning.png'
-imageBottomRight: '/2024/images/Lies of P - castle.png'
-transition: slide-up
----
-
----
-layout: 3-images
-imageLeft: '/2024/images/Elden Ring - water.png'
-imageTopRight: '/2024/images/Elden Ring - golden.png'
-imageBottomRight: '/2024/images/Elden Ring - moon.png'
-transition: slide-up
----
-
----
-transition: slide-up
 layout: intro-image-right
-image: '/2024/images/Elden Ring - veil.png'
+image: '/2025/images/scotland/arcade-bar.png'
+transition: slide-up
 ---
 
-# Elden Ring (Shadow of the Erdtree)
 
-I will always come back to this, and it is a master piece.
-
-# 5/5
-
-This is an objective fact, not an opinion.
-
-(actually didn't finish the DLC. needed to play baldurs gate)
+# We went to scotland
 
 ---
 layout: 3-images
-imageLeft: '/2024/images/Baldurs Gate 3 - astarion.png'
-imageTopRight: '/2024/images/Baldurs Gate 3 - harem.png'
-imageBottomRight: '/2024/images/Baldurs Gate 3 - will and shadowheart.png'
+imageLeft: '/2025/images/scotland/liz.JPG'
+imageTopRight: '/2025/images/scotland/foundation_1.png'
+imageBottomRight: '/2025/images/scotland/foundation_2.png'
 ---
 
 ---
@@ -123,31 +146,84 @@ layout: statement
 transition: slide-up
 ---
 
-# I went to league events
-For some reason
-
----
-layout: 3-images
-imageLeft: '/2024/images/worlds.jpg'
-imageTopRight: '/2024/images/lec 2.jpg'
-imageBottomRight: '/2024/images/lec 1.jpg'
----
+# And did some tech stuff
 
 ---
 layout: intro-image-right
-image: '/2024/images/gamescom tencent.jpg'
+image: '/2025/images/tech/switchbrew.png'
 transition: slide-up
 ---
 
-# Went to Gamescom
+# I modded my Switch
 
-As rosalina
+---
+layout: intro-image-right
+image: '/2025/images/tech/new-router.png'
+transition: slide-up
+---
+
+# Replaced our router with a new modem + router setup
+
+It works now.
+
+---
+layout: intro-image-right
+image: '/2025/images/tech/celeryband.png'
+---
+
+# Finished first version of celery.band
+
+A selfhostable salaryband platform with strong anonymization and simple configuration.
+
+At IU, over 30 people signed up and used it to share their salary data anonymously.
+
+
+---
+layout: statement
+transition: slide-up
+---
+
+# And some general life events
+
+---
+layout: intro-image-right
+image: '/2025/images/general/wedding.JPG'
+transition: slide-up
+---
+
+# Became best man
+
+---
+layout: intro-image-right
+image: '/2025/images/general/liqid-app.png'
+transition: slide-up
+---
+
+# New job!
+ Started on 1st of Dec @ LIQID
+
 
 ---
 layout: 3-images
-imageLeft: '/2024/images/gamescom minecraft.jpg'
-imageTopRight: '/2024/images/gamescom zzz.jpg'
-imageBottomRight: '/2024/images/gamescom witcher.jpg'
+imageLeft: '/2025/images/general/csd.jpg'
+imageTopRight: '/2025/images/general/bogen_schiessen.jpg'
+imageBottomRight: '/2025/images/general/lotr.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/general/wad_1.jpg'
+imageTopRight: '/2025/images/general/wad_2.png'
+imageBottomRight: '/2025/images/general/wad_3.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/general/vinyl.png'
+imageTopRight: '/2025/images/general/teams-call.png'
+imageBottomRight: '/2025/images/general/espresso.png'
 ---
 
 ---
@@ -155,275 +231,435 @@ layout: statement
 transition: slide-up
 ---
 
-# Sideprojects
-## and similar things
+# Oh, and I switched from Windows to NixOS on my PC
+
+---
+layout: intro-image
+image: '/2025/images/nix/nixos-wallpaper.png'
+transition: slide-up
+---
+
+# let's talk nix
 
 ---
 layout: intro-image-right
-image: '/2024/images/cluster.jpg'
+image: '/2025/images/nix/nix.png'
 transition: slide-up
 ---
 
-# The Home Cluster
+# what is nix even
+here's a helpful chart
 
-It's kubernetes running at home.
+---
+layout: center
+transition: slide-up
+---
 
-## State:
-- email support! (e.g. jellyfin newsletter)
-- we have about 98% uptime :(
-- full migration to immich
-- remote backups!
+# How is software being provided today?
 
+<v-clicks>
+
+- binaries (.exe, .dmg, .apk, .deb, .rpm, etc.) are built and distributed to end users
+- every system needs its own build of the software (windows, mac, linux (debian, arch, ...), etc )
+- dependencies are often shared system-wide: software is often not guaranteed to run unless you install other software first
+
+</v-clicks>
+
+
+---
+layout: center
+transition: slide-up
+---
+
+# What if
+Instead of distributing pre-built binaries, we distributed **build instructions** that anyone can use to build the software from source code in a reproducible way for their specific machine?
+
+---
+layout: center
+transition: slide-up
+---
+
+# Let's take discord as an example
+
+
+
+
+```mermaid
+graph LR
+    Discord["Discord"]
+    Electron["Electron"]
+    Chromium["Chromium"]
+    Node["Node.js"]
+    V8["V8"]
+    libuv["libuv"]
+    SSL["OpenSSL"]
+    Skia["Skia"]
+    Freetype["Freetype"]
+    ICU["ICU"]
+    CPP["C++"]
+    LLVM["LLVM"]
+    Glibc["glibc"]
+    Linux["Linux"]
+    Discord --> Electron
+    Discord --> Node
+    Electron --> Chromium
+    Electron --> V8
+    Node --> V8
+    Node --> libuv
+    Node --> SSL
+    Chromium --> Skia
+    Chromium --> V8
+    Skia --> Freetype
+    Chromium --> ICU
+    Freetype --> CPP
+    ICU --> CPP
+    libuv --> CPP
+    SSL --> CPP
+    CPP --> LLVM
+    CPP --> Glibc
+    LLVM --> Linux
+    Glibc --> Linux
+```
+
+We need to define all of these with the build instructions, and their dependencies too!
+
+---
+layout: center
+transition: slide-up
+---
+
+# Building everything from source is slow
+<v-clicks>
+
+What if we had a **shared cache** of pre-built packages based on these instructions. Instead of building everything from source every time, we could just download the packages from the cache!
+
+</v-clicks>
+
+---
+layout: center
+transition: slide-up
+---
+
+# Nix is a Language and a Package Manager that does both of these things
+
+Aka. Nix DSL (Domain Specific Language) and nixpkgs (The Nix package registry).
+
+<v-clicks>
+
+It originated in 2003 as a research project by Eelco Dolstra at Utrecht University.
+
+His 2006 doctoral thesis, **The Purely Functional Software Deployment Model**, describes a declarative and functional approach to software deployment and lays out the design of the Nix package manager.
+
+</v-clicks>
 
 ---
 layout: intro-image-right
-image: '/2024/images/cats under screen.jpg'
+image: '/2025/images/nix/map_repo_size_fresh.svg'
 transition: slide-up
 ---
 
-# We got cats
+# It's also the [largest and most up to date collection of packages](https://repology.org/repositories/graphs)
 
-They help
+We currently have build instructions for over 120,000 packages, and a public, shared cache for all of them!
 
 ---
-layout: 3-images
-imageLeft: '/2024/images/cats gaming.jpg'
-imageTopRight: '/2024/images/cats eldenring.jpeg'
-imageBottomRight: '/2024/images/cats chonk.jpg'
+layout: center
+transition: slide-up
 ---
+
+# What do we use it for?
+
+First, install nix on linux, mac, windows, and more ([download](https://nixos.org/download/))
+
+---
+layout: two-cols-header
+transition: slide-up
+---
+
+# Run packages in ephemeral environments
+
+
+::left::
+
+```sh
+nix-shell -p nodejs_22
+```
+
+::right::
+<img v-click src="/2025/images/nix/nix-node.png" alt="nix nodejs" />
+
+---
+layout: two-cols-header
+transition: slide-up
+---
+
+# Open development environments
+
+::left::
+
+```nix
+
+{
+  devShells.default = pkgs.mkShell {
+    buildInputs = with pkgs; [
+      nodejs_22
+      pnpm
+    ];
+    shellHook = ''
+      node --version
+      pnpm --version
+      pnpm i
+      pnpm dev
+    '';
+  };
+}
+```
+
+::right::
+
+<img v-click src="/2025/images/nix/nix-devshell.png" alt="nix devshell" />
+
+---
+layout: center
+transition: slide-up
+---
+
+# Or: Nix + Home Manager
+
+Use nix to configure your entire user environment declaratively.
+
+---
+layout: center
+transition: slide-up
+---
+
+# Installing general applications
+````md magic-move
+```nix
+ home-manager.users.${username} =
+  {
+
+  }
+```
+```nix
+ home-manager.users.${username} =
+  {
+    # Define general applications to be installed without further configuration
+    packages = with pkgs; [
+      bitwarden-desktop
+    ];
+  }
+```
+```nix
+ home-manager.users.${username} =
+  {
+    # Define general applications to be installed without further configuration
+    packages = with pkgs; [
+      bitwarden-desktop
+      discord
+      signal-desktop
+      element-desktop
+      tidal-hifi
+    ];
+  }
+```
+````
+
+---
+layout: center
+transition: slide-up
+---
+
+# Configuring fully supported programs, e.g. firefox
+
+````md magic-move
+```nix
+ home-manager.users.${username} =
+  {
+    programs.firefox = {
+      # This is all we need to do to install firefox
+      enable = true; 
+    };
+  }
+```
+```nix
+ home-manager.users.${username} =
+  {
+    programs.firefox = {
+      # This is all we need to do to install firefox
+      enable = true; 
+
+      # Install extensions
+      extensions = with pkgs.nur.repos.rycee.firefox-addons; [
+        ublock-origin
+      ];
+    };
+  }
+```
+```nix
+ home-manager.users.${username} =
+  {
+    programs.firefox = {
+      # This is all we need to do to install firefox
+      enable = true; 
+
+      # Install extensions
+      extensions = with pkgs.nur.repos.rycee.firefox-addons; [
+        ublock-origin
+      ];
+
+      # Configure search
+      search.default = "ddg"; # DuckDuckGo
+    };
+  }
+```
+```nix
+ home-manager.users.${username} =
+  {
+    programs.firefox = {
+      # This is all we need to do to install firefox
+      enable = true; 
+
+      # Install extensions
+      extensions = with pkgs.nur.repos.rycee.firefox-addons; [
+        ublock-origin
+      ];
+
+      # Configure search
+      search.default = "ddg"; # DuckDuckGo
+
+      # Deep integration with full set of internal firefox settings
+      settings = { 
+        "browser.startup.homepage" = "https://diluz.io/sebastian";
+        "privacy.trackingprotection.enabled" = true;
+      };    
+    };
+  }
+```
+````
+
+---
+layout: statement
+transition: slide-up
+---
+
+## We can use this configuration on all our machines
+
+PC, personal laptop, work laptop, servers, etc.
+
+---
+layout: statement
+transition: slide-up
+---
+
+# What if we built an entire operating system around this concept?
 
 ---
 layout: intro-image-right
-image: '/2024/images/contributions.png'
+image: '/2025/images/nix/nixos-logo.svg'
 transition: slide-up
 ---
 
-## I also wrote code
+# NixOS
 
-So, here's a quick interlude with:
-
-# My open source highlights
+A Linux distribution where the entire operating system is built and managed using the Nix package manager.
 
 ---
-layout: intro-image-right
-image: '/2024/images/github.png'
+layout: center
 transition: slide-up
 ---
 
-# GitHub
+# What makes NixOS special?
 
-I probably spent too much time on here
+<v-clicks>
+
+- Reproducibility: The entire system state can be applied to any machine, yielding the same results.
+- Declarative configuration: The entire system configuration is defined using nix expressions.
+- Atomic upgrades and rollbacks: System updates are atomic, meaning they either complete successfully or not at all. If an update causes issues, users can easily roll back to a previous system state.
+
+</v-clicks>
 
 ---
-layout: intro-image-right
-image: '/2024/images/mage.png'
+layout: center
 transition: slide-up
 ---
 
-# Created container images for mage
+  # Set up foundational settings
 
-I hate java and they STILL haven't merged my PR.
+````md magic-move
+```nix
+{
+  # Time zone
+  time.timeZone = "Europe/Berlin";
+
+  # Localization
+  i18n.defaultLocale = "en_US.UTF-8";
+}
+```
+```nix
+{
+  # Time zone
+  time.timeZone = "Europe/Berlin";
+
+  # Localization
+  i18n.defaultLocale = "en_US.UTF-8";
+  i18n.extraLocaleSettings = {
+    LC_MEASUREMENT = "de_DE.UTF-8";
+    LC_MONETARY = "de_DE.UTF-8";
+    LC_NUMERIC = "de_DE.UTF-8";
+    LC_PAPER = "de_DE.UTF-8";
+    LC_TIME = "de_DE.UTF-8";
+  };
+}
+```
+````
 
 ---
-layout: intro-image-right
-image: '/2024/images/gleam.png'
+layout: center
 transition: slide-up
 ---
 
-# Learned a bit of gleam
+  # Set up graphics card
 
-It's a fun, strongly typed functional language.
 
-I did a few of the advent of code 2024 challenges on it.
+```nix
+{
+  services.xserver.videoDrivers = [ "nvidia" ];
+  hardware.nvidia = {
+    modesetting.enable = true;
+    powerManagement.enable = false;
+    powerManagement.finegrained = false;
+    open = false; # Don't use the open source driver
+    nvidiaSettings = true;
+    package = config.boot.kernelPackages.nvidiaPackages.stable;
+  };
+}
+```
 
 ---
-layout: intro-image-right
-image: '/2024/images/celeryband.png'
----
-
-# Started celery.band
-
-Will be a selfhostable salaryband platform with strong anonymization and simple configuration.
-
-
----
-layout: intro
+layout: center
 transition: slide-up
 ---
 
-# Back to my sideprojects
+# Configure Yubikey for login and sudo
 
----
-layout: intro-image-right
-image: '/2024/images/iutech.jpeg'
-transition: slide-up
----
-
-
-# Held a talk about my game
-
-At the company internal "IU Tech" conference in Berlin.
-
----
-layout: intro-image-right
-image: '/2024/images/diluzio.png'
----
-
-# diluz.io
-
-My personal website.
-
-## State:
-- Did a redesign, again.
-- Now also includes a CV pdf download
-
-
----
-layout: intro
-transition: slide-up
----
-
-# Basti at work
-
-What do they even do
-
----
-layout: intro-image-right
-image: '/2024/images/iu/technical lead.png'
-transition: slide-up
----
-
-# Senior Software Engineer and Technical Lead
-@ IU International University
-
-in Team Foundation
-
----
-layout: intro-image-right
-image: '/2024/images/iu/iuorg.png'
-transition: slide-up
----
-
-# What do IU do
-
-- private university
-- largest in DACH with over 150.000 students
-- both fernstudium as well as dual studies on campus
-
----
-layout: intro-image-right
-image: '/2024/images/iu/software engineer.jpg'
-transition: slide-up
----
-
-# What do software engineer do
-
-- code stuff
-- decide on the stuff to code with others
-  - Designers
-  - Product Managers
-  - other teams & stakeholders
-- try to keep coded stuff alive
-
----
-layout: intro-image-right
-image: '/2024/images/iu/team foundation.png'
-transition: slide-up
----
-
-# What do team do
-
-- focused on providing a technical platform for other teams
-- tooling and utilities to enable others
-- developer experience
-- memes
-
----
-layout: 3-images
-imageLeft: '/2024/images/iu/mycampus devtools.png'
-imageTopRight: '/2024/images/iu/pipelines.png'
-imageBottomRight: '/2024/images/iu/mycampus login.png'
-transition: slide-up
----
-
-/** fun at work */
----
-layout: 3-images
-imageLeft: '/2024/images/iu/fun 3.jpg'
-imageTopRight: '/2024/images/iu/fun 1.jpg'
-imageBottomRight: '/2024/images/iu/iu gaming.jpg'
-transition: slide-up
----
-
-/** conference */
----
-layout: 3-images
-imageLeft: '/2024/images/iu/conf 1.jpg'
-imageTopRight: '/2024/images/iu/conf 2.jpg'
-imageBottomRight: '/2024/images/iu/conf 3.jpg'
-transition: slide-up
----
-
-/** team events */
----
-layout: intro-image-right
-image: '/2024/images/iu/team duell.jpg'
-transition: slide-up
----
-# We also have team events
-
-- every quarter
-- different locations (~30 in germany)
-  - berlin
-  - munich
-  - hamburg
-  - cologne
-  - leipzig
-  - etc.
-
----
-layout: 3-images
-imageLeft: '/2024/images/iu/team event 2.jpg'
-imageTopRight: '/2024/images/iu/team event 3.png'
-imageBottomRight: '/2024/images/iu/team event 1.jpg'
-transition: slide-up
----
-
-/** workation 1 */
----
-layout: 3-images
-imageLeft: '/2024/images/iu/workation 3.jpg'
-imageTopRight: '/2024/images/iu/workation 2.jpg'
-imageBottomRight: '/2024/images/iu/workation 1.jpg'
-transition: slide-up
----
-
-/** workation 2 */
----
-layout: 3-images
-imageLeft: '/2024/images/iu/workation meeting.jpg'
-imageTopRight: '/2024/images/iu/workation food.jpg'
-imageBottomRight: '/2024/images/iu/workation gaming.jpg'
-transition: slide-up
----
-
-/** own events */
----
-layout: 3-images
-imageLeft: '/2024/images/iu/event 1.jpg'
-imageTopRight: '/2024/images/iu/happy.jpg'
-imageBottomRight: '/2024/images/iu/event 3.jpg'
-transition: slide-up
----
-
-/** feet */
----
-layout: 3-images
-imageLeft: '/2024/images/iu/feet main.jpg'
-imageTopRight: '/2024/images/iu/feet 1.jpg'
-imageBottomRight: '/2024/images/iu/feet 3.jpeg'
-transition: slide-up
----
+```nix
+{
+  services.udev.packages = [ pkgs.yubikey-personalization ];
+  services.pcscd.enable = true;
+  security.pam = {
+    services = {
+      login.u2fAuth = true;
+      sudo.u2fAuth = true;
+      # for login after lockout on KDE
+      kde.u2fAuth = true;
+    };
+    u2f.settings = {
+      cue = true; # Tell users to touch the yubikey
+    };
+  };
+}
+```
 
 ---
 layout: two-cols-header
@@ -440,4 +676,4 @@ layout: two-cols-header
 
 ::right::
 
-## <mdi-email class="text-6" /> give-me-feedback-on-the-end-of-year-aka-eoy-presentation-of-the-year-2024-please@diluz.io
+## <mdi-email class="text-6" /> give-me-feedback-on-the-end-of-year-aka-eoy-presentation-of-the-year-2025-please@diluz.io
