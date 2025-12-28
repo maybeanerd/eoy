@@ -174,12 +174,37 @@ layout: statement
 transition: slide-up
 ---
 
-# And some general life updates
+# And some general life events
 
 ---
 layout: intro-image-right
-image: '/2025/images/iutech.jpeg'
+image: '/2025/images/general/wedding.JPG'
 transition: slide-up
+---
+
+# Became best man
+
+---
+layout: 3-images
+imageLeft: '/2025/images/general/csd.jpg'
+imageTopRight: '/2025/images/general/bogen_schiessen.jpg'
+imageBottomRight: '/2025/images/general/lotr.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/general/wad_1.jpg'
+imageTopRight: '/2025/images/general/wad_2.png'
+imageBottomRight: '/2025/images/general/wad_3.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/general/vinyl.png'
+imageTopRight: '/2025/images/general/teams-call.png'
+imageBottomRight: '/2025/images/general/espresso.png'
 ---
 
 ---
