@@ -185,6 +185,16 @@ transition: slide-up
 # Became best man
 
 ---
+layout: intro-image-right
+image: '/2025/images/general/liqid-app.png'
+transition: slide-up
+---
+
+# New job!
+ Started on 1st of Dec @ LIQID
+
+
+---
 layout: 3-images
 imageLeft: '/2025/images/general/csd.jpg'
 imageTopRight: '/2025/images/general/bogen_schiessen.jpg'
