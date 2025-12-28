@@ -98,12 +98,12 @@ layout: 3-images
 imageLeft: '/2025/images/games/mtg_5.png'
 imageTopRight: '/2025/images/games/mtg_2.png'
 imageBottomRight: '/2025/images/games/mtg_4.png'
-transition: slide-up
 ---
 
 ---
 layout: intro-image-right
 image: '/2025/images/concerts/fox-stevenson.png'
+transition: slide-up
 ---
 
 # I also went to concerts
@@ -132,67 +132,49 @@ imageTopRight: '/2025/images/scotland/foundation_1.png'
 imageBottomRight: '/2025/images/scotland/foundation_2.png'
 ---
 
-
 ---
-layout: intro-image-right
-image: '/2025/images/contributions.png'
+layout: statement
 transition: slide-up
 ---
 
-## I also wrote code
-
-So, here's a quick interlude with:
-
-# My open source highlights
+# And did some tech stuff
 
 ---
 layout: intro-image-right
-image: '/2025/images/github.png'
+image: '/2025/images/tech/switchbrew.png'
 transition: slide-up
 ---
 
-# GitHub
-
-I probably spent too much time on here
+# I modded my Switch
 
 ---
 layout: intro-image-right
-image: '/2025/images/mage.png'
+image: '/2025/images/tech/new-router.png'
 transition: slide-up
 ---
 
-# Created container images for mage
+# Replaced our router with a new modem + router setup
 
-I hate java and they STILL haven't merged my PR.
+It works now.
 
 ---
 layout: intro-image-right
-image: '/2025/images/gleam.png'
+image: '/2025/images/tech/celeryband.png'
+---
+
+# Finished first version of celery.band
+
+A selfhostable salaryband platform with strong anonymization and simple configuration.
+
+At IU, over 30 people signed up and used it to share their salary data anonymously.
+
+
+---
+layout: statement
 transition: slide-up
 ---
 
-# Learned a bit of gleam
-
-It's a fun, strongly typed functional language.
-
-I did a few of the advent of code 2025 challenges on it.
-
----
-layout: intro-image-right
-image: '/2025/images/celeryband.png'
----
-
-# Started celery.band
-
-Will be a selfhostable salaryband platform with strong anonymization and simple configuration.
-
-
----
-layout: intro
-transition: slide-up
----
-
-# Back to my sideprojects
+# And some general life updates
 
 ---
 layout: intro-image-right
@@ -200,24 +182,12 @@ image: '/2025/images/iutech.jpeg'
 transition: slide-up
 ---
 
-
-# Held a talk about my game
-
-At the company internal "IU Tech" conference in Berlin.
-
 ---
-layout: intro-image-right
-image: '/2025/images/diluzio.png'
+layout: statement
+transition: slide-up
 ---
 
-# diluz.io
-
-My personal website.
-
-## State:
-- Did a redesign, again.
-- Now also includes a CV pdf download
-
+# Oh, and I switched from Windows to NixOS on my PC
 
 ---
 layout: statement
