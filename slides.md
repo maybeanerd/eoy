@@ -215,11 +215,12 @@ transition: slide-up
 # Oh, and I switched from Windows to NixOS on my PC
 
 ---
-layout: statement
+layout: intro-image
+image: '/2025/images/nix/nixos-wallpaper.png'
 transition: slide-up
 ---
 
-# nix
+# let's talk nix
 
 ---
 layout: intro-image-right
