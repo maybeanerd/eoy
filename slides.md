@@ -38,60 +38,66 @@ layout: statement
 # I played games
 
 ---
-layout: intro-image-right
-image: '/2025/images/genres.png'
-transition: slide-up
----
-
-# Genres
-
-Looks like I like soulslikes.
-
----
 layout: 3-images
-imageLeft: '/2025/images/New World.png'
-imageTopRight: '/2025/images/throne and liberty.png'
-imageBottomRight: '/2025/images/Black Desert.png'
+imageLeft: '/2025/images/games/animal_well.png'
+imageTopRight: '/2025/images/games/baldurs_gate.png'
+imageBottomRight: '/2025/images/games/ffxiv.png'
 transition: slide-up
 ---
 
 ---
 layout: 3-images
-imageLeft: '/2025/images/afk journey.jpg'
-imageTopRight: '/2025/images/Zenless Zone Zero.png'
-imageBottomRight: '/2025/images/Honkai Star Rail.png' 
+imageLeft: '/2025/images/games/borderlands_2.png'
+imageTopRight: '/2025/images/games/ghost.png'
+imageBottomRight: '/2025/images/games/borderlands_1.png'
 transition: slide-up
 ---
 
 ---
 layout: 3-images
-imageLeft: '/2025/images/Nioh - coop.png'
-imageTopRight: '/2025/images/Borderlands 2.png'
-imageBottomRight: '/2025/images/Nioh - thicc.png'
+imageLeft: '/2025/images/games/cyberpunk_2.png'
+imageTopRight: '/2025/images/games/cyberpunk_1.png'
+imageBottomRight: '/2025/images/games/letthemtrade.png'
 transition: slide-up
 ---
 
 ---
 layout: 3-images
-imageLeft: '/2025/images/Tiny Tinas Wonderlands - Nico.png'
-imageTopRight: '/2025/images/Tiny Tinas Wonderlands - blue.png'
-imageBottomRight: '/2025/images/Tiny Tinas Wonderlands - purple.png'
+imageLeft: '/2025/images/games/unbeatable.png'
+imageTopRight: '/2025/images/games/poe.png'
+imageBottomRight: '/2025/images/games/diablo.png'
 transition: slide-up
 ---
 
 ---
 layout: 3-images
-imageLeft: '/2025/images/Lies of P - inside.png'
-imageTopRight: '/2025/images/Lies of P - beginning.png'
-imageBottomRight: '/2025/images/Lies of P - castle.png'
+imageLeft: '/2025/images/games/mariokart_1.jpg'
+imageTopRight: '/2025/images/games/mh_1.png'
+imageBottomRight: '/2025/images/games/mh_2.png'
 transition: slide-up
 ---
 
 ---
 layout: 3-images
-imageLeft: '/2025/images/Elden Ring - water.png'
-imageTopRight: '/2025/images/Elden Ring - golden.png'
-imageBottomRight: '/2025/images/Elden Ring - moon.png'
+imageLeft: '/2025/images/games/split-fiction.png'
+imageTopRight: '/2025/images/games/zzz_2.png'
+imageBottomRight: '/2025/images/games/zzz_1.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/games/satisfactory_1.png'
+imageTopRight: '/2025/images/games/satisfactory_2.png'
+imageBottomRight: '/2025/images/games/satisfactory_3.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/games/mtg_5.png'
+imageTopRight: '/2025/images/games/mtg_2.png'
+imageBottomRight: '/2025/images/games/mtg_4.png'
 transition: slide-up
 ---
 
