@@ -549,6 +549,23 @@ transition: slide-up
 - Declarative configuration: The entire system configuration is defined using nix expressions.
 - Atomic upgrades and rollbacks: System updates are atomic, meaning they either complete successfully or not at all. If an update causes issues, users can easily roll back to a previous system state.
 
+---
+layout: center
+transition: slide-up
+---
+
+  # Set up foundational settings
+
+
+```nix
+{
+  # Time zone
+  time.timeZone = "Europe/Berlin";
+
+  # Localization
+  i18n.defaultLocale = "en_US.UTF-8";
+}
+```
 
 ---
 layout: center
