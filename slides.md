@@ -30,6 +30,15 @@ End of Year presentation of my life in 2025.
   </span>
 </div>
 
+<div v-click.hide="'0'" class="absolute bottom-2 right-2">
+  <span class="font-700 text-3">
+    .
+  </span>
+</div>
+<div v-click="'1'">
+</div>
+
+
 ---
 transition: slide-up
 layout: statement
