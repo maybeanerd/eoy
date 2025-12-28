@@ -386,7 +386,7 @@ nix-shell -p nodejs_22
 ```
 
 ::right::
-<img src="/2025/images/nix-node.png" alt="nix nodejs" />
+<img src="/2025/images/nix/nix-node.png" alt="nix nodejs" />
 
 ---
 layout: two-cols-header
