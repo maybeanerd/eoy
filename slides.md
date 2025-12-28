@@ -169,6 +169,7 @@ It works now.
 ---
 layout: intro-image-right
 image: '/2025/images/tech/celeryband.png'
+transition: slide-up
 ---
 
 # Finished first version of celery.band
@@ -177,6 +178,14 @@ A selfhostable salaryband platform with strong anonymization and simple configur
 
 At IU, over 30 people signed up and used it to share their salary data anonymously.
 
+---
+layout: intro-image-right
+image: '/2025/images/tech/singstardb.png'
+---
+
+# Built SingStarDB v0.1
+
+An open database of singstar songs and on what discs and platforms they are available.
 
 ---
 layout: statement
