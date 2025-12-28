@@ -102,26 +102,17 @@ transition: slide-up
 ---
 
 ---
-transition: slide-up
 layout: intro-image-right
-image: '/2025/images/Elden Ring - veil.png'
+image: '/2025/images/concerts/fox-stevenson.png'
 ---
 
-# Elden Ring (Shadow of the Erdtree)
-
-I will always come back to this, and it is a master piece.
-
-# 5/5
-
-This is an objective fact, not an opinion.
-
-(actually didn't finish the DLC. needed to play baldurs gate)
+# I also went to concerts
 
 ---
 layout: 3-images
-imageLeft: '/2025/images/Baldurs Gate 3 - astarion.png'
-imageTopRight: '/2025/images/Baldurs Gate 3 - harem.png'
-imageBottomRight: '/2025/images/Baldurs Gate 3 - will and shadowheart.png'
+imageLeft: '/2025/images/concerts/witcher.png'
+imageTopRight: '/2025/images/concerts/top.png'
+imageBottomRight: '/2025/images/concerts/ashnikko.png'
 ---
 
 ---
@@ -131,35 +122,6 @@ transition: slide-up
 
 # I went to league events
 For some reason
-
----
-layout: 3-images
-imageLeft: '/2025/images/worlds.jpg'
-imageTopRight: '/2025/images/lec 2.jpg'
-imageBottomRight: '/2025/images/lec 1.jpg'
----
-
----
-layout: intro-image-right
-image: '/2025/images/gamescom tencent.jpg'
-transition: slide-up
----
-
-# Went to Gamescom
-
-As rosalina
-
----
-layout: 3-images
-imageLeft: '/2025/images/gamescom minecraft.jpg'
-imageTopRight: '/2025/images/gamescom zzz.jpg'
-imageBottomRight: '/2025/images/gamescom witcher.jpg'
----
-
----
-layout: statement
-transition: slide-up
----
 
 # Sideprojects
 ## and similar things
@@ -293,7 +255,7 @@ transition: slide-up
 
 ---
 layout: intro-image-right
-image: '/2025/images/nix.png'
+image: '/2025/images/nix/nix.png'
 transition: slide-up
 ---
 
@@ -392,7 +354,7 @@ His 2006 doctoral thesis, **The Purely Functional Software Deployment Model**, d
 
 ---
 layout: intro-image-right
-image: '/2025/images/map_repo_size_fresh.svg'
+image: '/2025/images/nix/map_repo_size_fresh.svg'
 transition: slide-up
 ---
 
@@ -455,7 +417,7 @@ transition: slide-up
 
 ::right::
 
-<img src="/2025/images/nix-devshell.png" alt="nix devshell" />
+<img src="/2025/images/nix/nix-devshell.png" alt="nix devshell" />
 
 ---
 layout: center
@@ -536,7 +498,7 @@ transition: slide-up
 
 ---
 layout: intro-image-right
-image: '/2025/images/nixos-logo.svg'
+image: '/2025/images/nix/nixos-logo.svg'
 transition: slide-up
 ---
 
