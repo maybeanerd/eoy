@@ -670,6 +670,14 @@ transition: slide-up
 }
 ```
 
+
+
+---
+layout: center
+---
+<img src="/2025/images/nix/cta.jpg" alt="pls try nixos" />
+
+
 ---
 layout: two-cols-header
 ---
