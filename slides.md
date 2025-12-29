@@ -691,6 +691,11 @@ layout: two-cols-header
 ## <mdi-web class="text-6" /> diluz.io/sebastian
 ## <mdi-linkedin class="text-6" /> sebastian-di-luzio
 
+<br>
+
+## Or come to my booth and ask me anything!
+Booth = the spot where I sit down after this, I guess.
+
 ::right::
 
 ## <mdi-email class="text-6" /> give-me-feedback-on-the-end-of-year-aka-eoy-presentation-of-the-year-2025-please@diluz.io
