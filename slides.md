@@ -670,6 +670,14 @@ transition: slide-up
 }
 ```
 
+
+
+---
+layout: center
+---
+<img src="/2025/images/nix/cta.jpg" alt="pls try nixos" />
+
+
 ---
 layout: two-cols-header
 ---
@@ -682,6 +690,11 @@ layout: two-cols-header
 ## <mdi-github class="text-6" /> maybeanerd
 ## <mdi-web class="text-6" /> diluz.io/sebastian
 ## <mdi-linkedin class="text-6" /> sebastian-di-luzio
+
+<br>
+
+## Or come to my booth and ask me anything!
+Booth = the spot where I sit down after this, I guess.
 
 ::right::
 
