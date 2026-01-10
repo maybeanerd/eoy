@@ -164,7 +164,7 @@ nix-shell -p nodejs_22
 ```
 
 ::right::
-<img v-click src="/public/nix/images/nix-node.png" alt="nix nodejs" />
+<img v-click src="../public/nix/images/nix-node.png" alt="nix nodejs" />
 
 ---
 layout: two-cols-header
@@ -195,7 +195,7 @@ transition: slide-up
 
 ::right::
 
-<img v-click src="/public/nix/images/nix-devshell.png" alt="nix devshell" />
+<img v-click src="../public/nix/images/nix-devshell.png" alt="nix devshell" />
 
 ---
 layout: center
@@ -444,7 +444,7 @@ transition: slide-up
 ---
 layout: center
 ---
-<img src="/public/nix/images/cta.jpg" alt="pls try nixos" />
+<img src="../public/nix/images/cta.jpg" alt="pls try nixos" />
 
 
 ---
