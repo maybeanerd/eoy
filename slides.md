@@ -2,26 +2,257 @@
 theme: apple-basic
 highlighter: shiki
 lineNumbers: true
-title: nix
+title: EoY 2025
 info: |
-  ## nix
-  A talk about nix, nixos, and how I use it for development and daily computing.
-author: Sebastian Di Luzio
+  ## EoY 2025
+  End of Year presentation of my life in 2025.
 drawings:
   persist: false
 mdc: true
 transition: slide-left
 
-layout: intro-image
-image: '/nix/images/nixos-wallpaper.png'
+layout: intro
+---
 
+# EoY 2025
+
+End of Year presentation of my life in 2025.
+
+<div class="absolute bottom-10">
+  <span class="font-700">
+    Sebastian Di Luzio, 2025
+  </span>
+</div>
+
+<div class="absolute bottom-10 right-10">
+  <span class="font-700 text-3">
+    Did I mention it's about 2025?
+  </span>
+</div>
+
+<div v-click.hide="'0'" class="absolute bottom-2 right-2">
+  <span class="font-700 text-3">
+    .
+  </span>
+</div>
+<div v-click="'1'">
+</div>
+
+
+---
+transition: slide-up
+layout: statement
+---
+
+# I played games
+
+---
+layout: 3-images
+imageLeft: '/2025/images/games/animal_well.png'
+imageTopRight: '/2025/images/games/baldurs_gate.png'
+imageBottomRight: '/2025/images/games/ffxiv.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/games/borderlands_2.png'
+imageTopRight: '/2025/images/games/ghost.png'
+imageBottomRight: '/2025/images/games/borderlands_1.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/games/cyberpunk_2.png'
+imageTopRight: '/2025/images/games/cyberpunk_1.png'
+imageBottomRight: '/2025/images/games/letthemtrade.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/games/unbeatable.png'
+imageTopRight: '/2025/images/games/poe.png'
+imageBottomRight: '/2025/images/games/diablo.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/games/mariokart_1.jpg'
+imageTopRight: '/2025/images/games/mh_1.png'
+imageBottomRight: '/2025/images/games/mh_2.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/games/split-fiction.png'
+imageTopRight: '/2025/images/games/zzz_2.png'
+imageBottomRight: '/2025/images/games/zzz_1.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/games/satisfactory_1.png'
+imageTopRight: '/2025/images/games/satisfactory_2.png'
+imageBottomRight: '/2025/images/games/satisfactory_3.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/games/mtg_5.png'
+imageTopRight: '/2025/images/games/mtg_2.png'
+imageBottomRight: '/2025/images/games/mtg_4.png'
+---
+
+---
+layout: intro-image-right
+image: '/2025/images/concerts/fox-stevenson.png'
+transition: slide-up
+---
+
+# I also went to concerts
+
+---
+layout: 3-images
+imageLeft: '/2025/images/concerts/witcher.png'
+imageTopRight: '/2025/images/concerts/top.png'
+imageBottomRight: '/2025/images/concerts/ashnikko.png'
+---
+
+
+---
+layout: intro-image-right
+image: '/2025/images/scotland/arcade-bar.png'
+transition: slide-up
+---
+
+
+# We went to scotland
+
+---
+layout: 3-images
+imageLeft: '/2025/images/scotland/liz.JPG'
+imageTopRight: '/2025/images/scotland/foundation_1.png'
+imageBottomRight: '/2025/images/scotland/foundation_2.png'
+---
+
+---
+layout: statement
+transition: slide-up
+---
+
+# And did some tech stuff
+
+---
+layout: intro-image-right
+image: '/2025/images/tech/switchbrew.png'
+transition: slide-up
+---
+
+# I modded my Switch
+
+---
+layout: intro-image-right
+image: '/2025/images/tech/new-router.png'
+transition: slide-up
+---
+
+# Replaced our router with a new modem + router setup
+
+It works now.
+
+---
+layout: intro-image-right
+image: '/2025/images/tech/celeryband.png'
+transition: slide-up
+---
+
+# Finished first version of celery.band
+
+A selfhostable salaryband platform with strong anonymization and simple configuration.
+
+At IU, over 30 people signed up and used it to share their salary data anonymously.
+
+---
+layout: intro-image-right
+image: '/2025/images/tech/singstardb.png'
+---
+
+# Built SingStarDB v0.1
+
+An open database of singstar songs and on what discs and platforms they are available.
+
+---
+layout: statement
+transition: slide-up
+---
+
+# And some general life events
+
+---
+layout: intro-image-right
+image: '/2025/images/general/wedding.JPG'
+transition: slide-up
+---
+
+# Became best man
+
+---
+layout: intro-image-right
+image: '/2025/images/general/liqid-app.png'
+transition: slide-up
+---
+
+# New job!
+ Started on 1st of Dec @ LIQID
+
+
+---
+layout: 3-images
+imageLeft: '/2025/images/general/csd.jpg'
+imageTopRight: '/2025/images/general/bogen_schiessen.jpg'
+imageBottomRight: '/2025/images/general/lotr.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/general/wad_1.jpg'
+imageTopRight: '/2025/images/general/wad_2.png'
+imageBottomRight: '/2025/images/general/wad_3.png'
+transition: slide-up
+---
+
+---
+layout: 3-images
+imageLeft: '/2025/images/general/vinyl.png'
+imageTopRight: '/2025/images/general/teams-call.png'
+imageBottomRight: '/2025/images/general/espresso.png'
+---
+
+---
+layout: statement
+transition: slide-up
+---
+
+# Oh, and I switched from Windows to NixOS on my PC
+
+---
+layout: intro-image
+image: '/2025/images/nix/nixos-wallpaper.png'
+transition: slide-up
 ---
 
 # let's talk nix
 
 ---
 layout: intro-image-right
-image: '/nix/images/nix.png'
+image: '/2025/images/nix/nix.png'
 transition: slide-up
 ---
 
@@ -132,7 +363,7 @@ His 2006 doctoral thesis, **The Purely Functional Software Deployment Model**, d
 
 ---
 layout: intro-image-right
-image: '/nix/images/map_repo_size_fresh.svg'
+image: '/2025/images/nix/map_repo_size_fresh.svg'
 transition: slide-up
 ---
 
@@ -164,7 +395,7 @@ nix-shell -p nodejs_22
 ```
 
 ::right::
-<img v-click src="/nix/images/nix-node.png" alt="nix nodejs" />
+<img v-click src="/2025/images/nix/nix-node.png" alt="nix nodejs" />
 
 ---
 layout: two-cols-header
@@ -195,7 +426,7 @@ transition: slide-up
 
 ::right::
 
-<img v-click src="/nix/images/nix-devshell.png" alt="nix devshell" />
+<img v-click src="/2025/images/nix/nix-devshell.png" alt="nix devshell" />
 
 ---
 layout: center
@@ -334,7 +565,7 @@ transition: slide-up
 
 ---
 layout: intro-image-right
-image: '/nix/images/nixos-logo.svg'
+image: '/2025/images/nix/nixos-logo.svg'
 transition: slide-up
 ---
 
@@ -444,7 +675,7 @@ transition: slide-up
 ---
 layout: center
 ---
-<img src="/nix/images/cta.jpg" alt="pls try nixos" />
+<img src="/2025/images/nix/cta.jpg" alt="pls try nixos" />
 
 
 ---
@@ -467,4 +698,4 @@ Booth = the spot where I sit down after this, I guess.
 
 ::right::
 
-## <mdi-email class="text-6" /> give-me-feedback-on-the-nix-presentation-please@diluz.io
+## <mdi-email class="text-6" /> give-me-feedback-on-the-end-of-year-aka-eoy-presentation-of-the-year-2025-please@diluz.io
